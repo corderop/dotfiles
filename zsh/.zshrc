@@ -12,6 +12,7 @@ DISABLE_UNTRACKED_FILES_DIRTY="true" # make repository check faster
 ### PLUGINS
 plugins=(
   git
+  zsh-autosuggestions
 )
 
 ### OTHER
