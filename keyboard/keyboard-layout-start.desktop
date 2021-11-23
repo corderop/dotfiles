@@ -1,0 +1,20 @@
+[Desktop Entry]
+Comment[es_ES]=
+Comment=
+Exec=~/.dotfiles/keyboard/start.sh
+GenericName[es_ES]=
+GenericName=
+Icon=dialog-scripts
+MimeType=
+Name[es_ES]=Keyboard layout
+Name=Keyboard layout
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-AutostartScript=true
+X-KDE-SubstituteUID=false
+X-KDE-Username=
