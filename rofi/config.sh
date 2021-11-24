@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Install rofi
+sudo pacman -S rofi
+sudo pacman -S xsel rofi-emoji
+
 # Create rofi folder if does not exists
 mkdir -p ~/.config/rofi/
 mkdir -p ~/.local/share/rofi/themes
