@@ -17,3 +17,6 @@ plugins=(
 
 ### OTHER
 source $ZSH/oh-my-zsh.sh
+
+### SHELL CONFIGURATION
+PATH=$PATH:~/.bin
