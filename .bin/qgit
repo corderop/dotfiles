@@ -1,0 +1,14 @@
+#!/bin/bash
+#
+# This script get an git repository
+# and clone to a temp folder
+
+DOWNLOAD_DIR=`xdg-user-dir DOWNLOAD`
+
+# Create and navigate to folder
+mkdir -p "$DOWNLOAD_DIR/temp_git" 
+cd "$DOWNLOAD_DIR/temp_git"
+
+rm -f -r $(basename $1 .git)
+git clone $1
+cd $(basename $1 .git)
