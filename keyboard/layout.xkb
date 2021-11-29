@@ -709,7 +709,6 @@ xkb_types "complete" {
         level_name[Level4]= "Shift Alt";
         level_name[Level5]= "Lock";
     };
-
     type "FOUR_LEVEL_KEYPAD" {
         modifiers= Shift+NumLock+LevelThree;
         map[Shift]= Level2;
@@ -723,7 +722,6 @@ xkb_types "complete" {
         level_name[Level3]= "Alt Base";
         level_name[Level4]= "Alt Number";
     };
-
     type "CUST_CAPSLOCK" {
         modifiers= Shift+Lock+LevelThree;
         map[Shift]= Level2;
@@ -1348,17 +1346,15 @@ xkb_symbols "pc+us(intl)+inet(evdev)" {
         type= "FOUR_LEVEL_ALPHABETIC",
         symbols[Group1]= [               a,               A,          aacute,          Aacute ]
     };
-    key <AC02> {
+    override key <AC02> {
         type="CUST_CAPSLOCK",
         symbols=[               s,               S,          ssharp,         section,           Alt_L ]
     };
-
-    key <AC03> {
+    override key <AC03> {
         type="CUST_CAPSLOCK",
         symbols=[               d,               D,             eth,             ETH,       Control_L ]
     };
-
-    key <AC04> {
+    override key <AC04> {
         type="CUST_CAPSLOCK",
         symbols=[               f,               F,               f,               F,         Shift_L ]
     };
