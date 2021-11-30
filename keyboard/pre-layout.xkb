@@ -1313,24 +1313,20 @@ xkb_symbols "pc+us(intl)+inet(evdev)" {
         symbols[Group1]= [               y,               Y,      udiaeresis,      Udiaeresis ]
     };
     key <AD07> {
-        type="CUST_CAPSLOCK",
-        symbols=[               u,               U,          uacute,          Uacute, Prior ],
-        actions=[      NoAction(),      NoAction(),      NoAction(),      NoAction(), RedirectKey(keycode=<PGUP>, clearmods=Lock) ]
+        type= "FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [               u,               U,          uacute,          Uacute ]
     };
     key <AD08> {
-        type="CUST_CAPSLOCK",
-        symbols=[               i,               I,          iacute,          Iacute, Up ],
-        actions[Group1]= [      NoAction(),      NoAction(),      NoAction(),      NoAction(), RedirectKey(keycode=<UP>, clearmods=Lock) ]
+        type= "FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [               i,               I,          iacute,          Iacute ]
     };
     key <AD09> {
-        type="CUST_CAPSLOCK",
-        symbols=[               o,               O,          oacute,          Oacute, Next ],
-        actions=[      NoAction(),      NoAction(),      NoAction(),      NoAction(), RedirectKey(keycode=<PGDN>, clearmods=Lock) ]
+        type= "FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [               o,               O,          oacute,          Oacute ]
     };
     key <AD10> {
-        type="CUST_CAPSLOCK",
-        symbols=[               p,               P,      odiaeresis,      Odiaeresis, Delete ],
-        actions=[      NoAction(),      NoAction(),      NoAction(),      NoAction(), RedirectKey(keycode=<DELE>, clearmods=Lock) ]
+        type= "FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [               p,               P,      odiaeresis,      Odiaeresis ]
     };
     key <AD11> {
         type= "FOUR_LEVEL",
@@ -1347,16 +1343,16 @@ xkb_symbols "pc+us(intl)+inet(evdev)" {
         symbols[Group1]= [               a,               A,          aacute,          Aacute ]
     };
     key <AC02> {
-        type="CUST_CAPSLOCK",
-        symbols=[               s,               S,          ssharp,         section,           Alt_L ]
+        type= "FOUR_LEVEL_SEMIALPHABETIC",
+        symbols[Group1]= [               s,               S,          ssharp,         section ]
     };
     key <AC03> {
-        type="CUST_CAPSLOCK",
-        symbols=[               d,               D,             eth,             ETH,       Control_L ]
+        type= "FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [               d,               D,             eth,             ETH ]
     };
     key <AC04> {
-        type="CUST_CAPSLOCK",
-        symbols=[               f,               F,               f,               F,         Shift_L ]
+        type= "FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [               f,               F,               f,               F ]
     };
     key <AC05> {
         type= "FOUR_LEVEL_ALPHABETIC",
@@ -1367,28 +1363,24 @@ xkb_symbols "pc+us(intl)+inet(evdev)" {
         symbols[Group1]= [               h,               H,               h,               H ]
     };
     key <AC07> {
-        type="CUST_CAPSLOCK",
-        symbols=[               j,               J,      idiaeresis,      Idiaeresis, Left  ],
-        actions[Group1]= [      NoAction(),      NoAction(),      NoAction(),      NoAction(), RedirectKey(keycode=<LEFT>, clearmods=Lock) ]
+        type= "FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [               j,               J,               j,               J ]
     };
     key <AC08> {
-        type="CUST_CAPSLOCK",
-        symbols=[               k,               K,              oe,              OE, Down ],
-        actions=[      NoAction(),      NoAction(),      NoAction(),      NoAction(), RedirectKey(keycode=<DOWN>, clearmods=Lock) ]
+        type= "FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [               k,               K,              oe,              OE ]
     };
     key <AC09> {
-        type="CUST_CAPSLOCK",
-        symbols=[               l,               L,          oslash,          Oslash, Right ],
-        actions=[      NoAction(),      NoAction(),      NoAction(),      NoAction(), RedirectKey(keycode=<RGHT>, clearmods=Lock) ]
+        type= "FOUR_LEVEL_ALPHABETIC",
+        symbols[Group1]= [               l,               L,          oslash,          Oslash ]
     };
     key <AC10> {
-        type="CUST_CAPSLOCK",
-        symbols=[       semicolon,           colon,       paragraph,          degree, BackSpace ],
-        actions=[      NoAction(),      NoAction(),      NoAction(),      NoAction(), RedirectKey(keycode=<BKSP>, clearmods=Lock) ]
+        type= "FOUR_LEVEL",
+        symbols[Group1]= [       semicolon,           colon,       paragraph,          degree ]
     };
     key <AC11> {
         type= "FOUR_LEVEL",
-        symbols[Group1]= [apostrophe,        quotedbl,      dead_acute,  dead_diaeresis ]
+        symbols[Group1]= [      dead_acute,  dead_diaeresis,      apostrophe,        quotedbl ]
     };
     key <TLDE> {
         type= "FOUR_LEVEL",
