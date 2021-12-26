@@ -16,7 +16,7 @@ mkdir -p /etc/hosts.backups
 cp /etc/hosts "/etc/hosts.backups/$BACKUP_NAME"
 printf "  ✅ Backup of the current /etc/hosts file in /etc/hosts.backups/$BACKUP_NAME\n"
 cp /etc/hosts /etc/hosts.default
-printf "  ✅ Current /etc/hosts set as default hosts (/etc/hosts.default\n"
+printf "  ✅ Current /etc/hosts set as default hosts (/etc/hosts.default)\n"
 
 # Add new profile to the hosts
 printf "\n"
