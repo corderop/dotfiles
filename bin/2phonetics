@@ -1,0 +1,6 @@
+#!/bin/bash
+#
+# Script that copy in the clipboard the IPA phonetics 
+# of the first argument
+
+espeak-ng $1 -q --ipa | xsel -i -b
