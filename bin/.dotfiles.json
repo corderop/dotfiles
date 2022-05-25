@@ -1,0 +1,17 @@
+[
+    {
+        "type": "file",
+        "source": "2phonetics",
+        "target": "~/.bin/2phonetics"
+    },
+    {
+        "type": "file",
+        "source": "ocrscreen",
+        "target": "~/.bin/ocrscreen"
+    },
+    {
+        "type": "file",
+        "source": "tgit",
+        "target": "~/.bin/tgit"
+    }
+]

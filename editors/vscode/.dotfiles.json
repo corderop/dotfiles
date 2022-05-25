@@ -1,0 +1,12 @@
+[
+    {
+        "type": "file",
+        "source": "keybindings.json",
+        "target": "~/.config/Code/User/keybindings.json"
+    },
+    {
+        "type": "file",
+        "source": "settings.json",
+        "target": "~/.config/Code/User/settings.json"
+    }
+]

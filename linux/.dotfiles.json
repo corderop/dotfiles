@@ -1,0 +1,7 @@
+[
+    {
+        "type": "folder",
+        "source": "keyboard",
+        "target": "~/.layout"
+    }
+]

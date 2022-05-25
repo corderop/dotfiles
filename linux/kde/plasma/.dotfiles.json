@@ -1,0 +1,7 @@
+[
+    {
+        "type": "file",
+        "source": "kglobalshortcutsrc",
+        "target": "~/.config/kglobalshortcutsrc"
+    }
+]

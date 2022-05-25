@@ -1,0 +1,6 @@
+[
+    {
+        "source": ".zshrc",
+        "target": "~/.zshrc"
+    }
+]

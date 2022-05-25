@@ -1,0 +1,7 @@
+[
+    {
+        "type": "file",
+        "source": "exports.sh",
+        "target": "~/.bin/exports.sh"
+    }
+]
