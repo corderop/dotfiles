@@ -1,1 +1,7 @@
 .vscode
+
+# EDITORS
+editors/vscode/globalStorage
+editors/vscode/History
+editors/vscode/snippets
+editors/vscode/workspaceStorage
