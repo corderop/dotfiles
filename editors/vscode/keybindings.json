@@ -1,4 +1,8 @@
+// Custom keybindings of @corderop for vscode 
 [
+    // ------------------------------------------------------------
+    // KEYBINDINGS TO ADD
+    // ------------------------------------------------------------
     {
         "key": "ctrl+alt+m",
         "command": "workbench.action.terminal.toggleTerminal",
@@ -50,6 +54,9 @@
         "key": "ctrl+alt+.",
         "command": "workbench.action.increaseViewSize"
     },
+    // ------------------------------------------------------------
+    // KEYBINDINGS TO REMOVE
+    // ------------------------------------------------------------
     {
         "key": "ctrl+`",
         "command": "-workbench.action.terminal.toggleTerminal",
@@ -125,5 +132,19 @@
         "key": "f10",
         "command": "-workbench.action.debug.stepOver",
         "when": "debugState == 'stopped'"
+    },
+    {
+        "key": "ctrl+alt+/",
+        "command": "workbench.action.terminal.new",
+        "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
+    },
+    {
+        "key": "ctrl+shift+`",
+        "command": "-workbench.action.terminal.new",
+        "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
+    },
+    {
+        "key": "ctrl+shift+/",
+        "command": "workbench.action.terminal.kill"
     }
 ]
