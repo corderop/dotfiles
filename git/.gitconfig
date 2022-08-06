@@ -1,0 +1,8 @@
+[user]
+	name = Pablo Cordero
+	email = pablocorderoromero@gmail.com
+[core]
+	editor = nano
+	excludesfile = ~/.gitignore_global
+[init]
+	defaultBranch = main
