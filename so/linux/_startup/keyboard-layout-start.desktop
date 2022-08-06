@@ -1,0 +1,23 @@
+[Desktop Entry]
+Comment[en_US]=
+Comment=
+Comment[es_ES]=
+Exec=kmonad ~/.dotfiles/so/linux/kmonad/main.kbd > /dev/null 2>&1
+GenericName[en_US]=
+GenericName=
+GenericName[es_ES]=
+Icon=dialog-scripts
+MimeType=
+Name[en_US]=Keyboard layout
+Name=Keyboard layout
+Name[es_ES]=Keyboard layout
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-AutostartScript=true
+X-KDE-SubstituteUID=false
+X-KDE-Username=
