@@ -23,5 +23,6 @@
   "hediet.vscode-drawio.theme": "Kennedy",
   "editor.bracketPairColorization.enabled": false,
   "terminal.integrated.enableMultiLinePasteWarning": false,
-  "javascript.updateImportsOnFileMove.enabled": "always"
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.minimap.enabled": false
 }
