@@ -1,2 +1,4 @@
+#!/bin/bash
+
 # zsh
-ln -s "$HOME/.dotfiles/shell/zsh/.zshrc" "$HOME/.zshrc"
+ln $1 "$HOME/.dotfiles/shell/zsh/.zshrc" "$HOME/.zshrc"

@@ -1,2 +1,4 @@
+#!/bin/bash
+
 # Binaries
-ln -s "$HOME/.dotfiles/bin/" "$HOME/.bin"
+ln $1 "$HOME/.dotfiles/bin/" "$HOME/.bin"

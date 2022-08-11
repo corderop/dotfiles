@@ -1,2 +1,4 @@
+#!/bin/bash
+
 # vscode
-ln -s "$HOME/.dotfiles/editors/vscode" "$HOME/.config/Code/User"
+ln $1 "$HOME/.dotfiles/editors/vscode" "$HOME/.config/Code/User"

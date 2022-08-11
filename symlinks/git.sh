@@ -1,2 +1,4 @@
-ln -s "$HOME/.dotfiles/git/.gitconfig" "$HOME/.gitconfig"
-ln -s "$HOME/.dotfiles/git/.gitignore_global" "$HOME/.gitignore_global"
+#!/bin/bash
+
+ln $1 "$HOME/.dotfiles/git/.gitconfig" "$HOME/.gitconfig"
+ln $1 "$HOME/.dotfiles/git/.gitignore_global" "$HOME/.gitignore_global"
