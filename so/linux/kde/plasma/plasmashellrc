@@ -1,0 +1,96 @@
+[KFileDialog Settings]
+Recent Files[$e]=plasma-applet-active-window-control.plasmoid,file:$HOME/Imágenes/wallpapers/amarillo.png,file:$HOME/Imágenes/wallpapers/azul.png,file:$HOME/Imágenes/wallpapers/morado.png,file:$HOME/Imágenes/wallpapers/naranja.png,file:$HOME/Imágenes/wallpapers/otro_naranja.png,file:$HOME/Imágenes/wallpapers/rosa.png,file:$HOME/Imágenes/background.png,file:$HOME/Imágenes/colortopng.png,file:$HOME/Descargas/borrar/plasma-applet-active-window-control.plasmoid
+Recent URLs[$e]=file:$HOME/Descargas/borrar/,file:$HOME/Imágenes/,file:$HOME/,file:$HOME/Documentos/,file:$HOME/Imágenes/wallpapers/
+detailViewIconSize=16
+
+[PlasmaViews][Panel 1][Defaults]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1024]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1152]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1200]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1280]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1366]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1440]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1600]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1680]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1900]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1916]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1920]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal2048]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal800]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal864]
+thickness=45
+
+[PlasmaViews][Panel 22][Defaults]
+thickness=44
+
+[PlasmaViews][Panel 22][Horizontal1920]
+thickness=44
+
+[PlasmaViews][Panel 41][Defaults]
+thickness=22
+
+[PlasmaViews][Panel 41][Horizontal1920]
+thickness=22
+
+[PlasmaViews][Panel 41][Vertical1080]
+thickness=36
+
+[PlasmaViews][Panel 43][Defaults]
+thickness=22
+
+[PlasmaViews][Panel 43][Horizontal1024]
+thickness=22
+
+[PlasmaViews][Panel 43][Horizontal1920]
+thickness=22
+
+[PlasmaViews][Panel 43][Horizontal3440]
+thickness=22
+
+[PlasmaViews][Panel 81]
+alignment=132
+panelVisibility=1
+
+[PlasmaViews][Panel 81][Defaults]
+maxLength=3312
+minLength=112
+thickness=60
+
+[PlasmaViews][Panel 81][Horizontal3440]
+maxLength=3312
+minLength=112
+thickness=60
+
+[ScreenConnectors]
+0=DisplayPort-0
+
+[Updates]
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/containmentactions_middlebutton.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/maintain_existing_desktop_icon_sizes.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/systemloadviewer_systemmonitor.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/klipper_clear_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_rename_timezonedisplay_key.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/no_middle_click_paste_on_panels.js

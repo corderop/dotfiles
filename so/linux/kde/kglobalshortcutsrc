@@ -3,7 +3,9 @@ _k_friendly_name=Activity Manager
 switch-to-activity-96fc46ce-ef66-47f5-b380-7c53bcf060c0=none,none,Switch to activity "Por omisión"
 
 [KDE Keyboard Layout Switcher]
+Switch keyboard layout to English (US, alt. intl.)=none,none,Switch keyboard layout to English (US\\, alt. intl.)
 Switch keyboard layout to English (US, intl., with dead keys)=none,none,Switch keyboard layout to English (US\\, intl.\\, with dead keys)
+Switch keyboard layout to English (intl., with AltGr dead keys)=none,none,Switch keyboard layout to English (intl.\\, with AltGr dead keys)
 Switch keyboard layout to Español=none,none,Cambiar la distribución del teclado a Español
 Switch keyboard layout to Inglés (EE. UU. internacional con teclas muertas)=none,none,Cambiar la distribución del teclado a Inglés (EE. UU. internacional con teclas muertas)
 Switch to Next Keyboard Layout=none,Ctrl+Alt+K,Switch to Next Keyboard Layout
@@ -195,20 +197,20 @@ Window to Screen 5=none,,Window to Screen 5
 Window to Screen 6=none,,Window to Screen 6
 Window to Screen 7=none,,Window to Screen 7
 _k_friendly_name=KWin
-view_actual_size=Meta+0,Meta+0,Actual Size
+view_actual_size=Meta+0,Meta+0,Zoom to Actual Size
 view_zoom_in=Meta+=,Meta+=,Zoom In
 view_zoom_out=Meta+-,Meta+-,Zoom Out
 
 [mediacontrol]
-_k_friendly_name=Controlador multimedia
-mediavolumedown=none,none,Bajar volumen multimedia
-mediavolumeup=none,none,Subir volumen multimedia
-nextmedia=Media Next,Media Next,Siguiente reproducción multimedia
-pausemedia=Media Pause,Media Pause,Pausar la reproducción multimedia
-playmedia=none,none,Reproducir la reproducción multimedia
-playpausemedia=Media Play,Media Play,Reproducir/pausar la reproducción multimedia
-previousmedia=Media Previous,Media Previous,Anterior reproducción multimedia
-stopmedia=Media Stop,Media Stop,Detener la reproducción multimedia
+_k_friendly_name=Media Controller
+mediavolumedown=none,,Media volume down
+mediavolumeup=none,,Media volume up
+nextmedia=Media Next,Media Next,Media playback next
+pausemedia=Media Pause,Media Pause,Pause media playback
+playmedia=none,,Play media playback
+playpausemedia=Media Play,Media Play,Play/Pause media playback
+previousmedia=Media Previous,Media Previous,Media playback previous
+stopmedia=Media Stop,Media Stop,Stop media playback
 
 [org.kde.dolphin.desktop]
 _k_friendly_name=Dolphin
@@ -230,14 +232,14 @@ _k_friendly_name=Selector de emojis
 _launch=Meta+.,Meta+.,Selector de emojis
 
 [org.kde.spectacle.desktop]
-ActiveWindowScreenShot=Meta+Print,Meta+Print,Capturar la ventana activa
-CurrentMonitorScreenShot=none,none,Capturar el monitor actual
-FullScreenScreenShot=Shift+Print,Shift+Print,Capturar todo el escritorio
-OpenWithoutScreenshot=none,none,Iniciar Spectacle sin capturar
-RectangularRegionScreenShot=Meta+Shift+Print,Meta+Shift+Print,Capturar una región rectangular
-WindowUnderCursorScreenShot=Meta+Ctrl+Print,Meta+Ctrl+Print,Capturar la ventana bajo el cursor
+ActiveWindowScreenShot=Meta+Print,Meta+Print,Capture Active Window
+CurrentMonitorScreenShot=none,none,Capture Current Monitor
+FullScreenScreenShot=Shift+Print,Shift+Print,Capture Entire Desktop
+OpenWithoutScreenshot=none,none,Launch Spectacle without capturing
+RectangularRegionScreenShot=Meta+Shift+Print,Meta+Shift+Print,Capture Rectangular Region
+WindowUnderCursorScreenShot=Meta+Ctrl+Print,Meta+Ctrl+Print,Capture Window Under Cursor
 _k_friendly_name=Spectacle
-_launch=Print,Print,Iniciar Spectacle
+_launch=Print,Print,Launch Spectacle
 
 [org_kde_powerdevil]
 Decrease Keyboard Brightness=Keyboard Brightness Down,Keyboard Brightness Down,Decrease Keyboard Brightness
