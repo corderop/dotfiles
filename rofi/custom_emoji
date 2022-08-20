@@ -1,70 +1,70 @@
-🎨	Gitmoji	gm	art	Improve | structure | format | of | the | code
-⚡️	Gitmoji	gm	zap	Improve | performance
-🔥	Gitmoji	gm	fire	Remove | code | or | files
-🐛	Gitmoji	gm	bug	Fix | a | bug
-🚑️	Gitmoji	gm	ambulance	Critical | hotfix
-✨	Gitmoji	gm	sparkles	Introduce | new | features
-📝	Gitmoji	gm	memo	Add | or | update | documentation
-🚀	Gitmoji	gm	rocket	Deploy | stuff
-💄	Gitmoji	gm	lipstick	Add | or | update | the | UI | and | style | files
-🎉	Gitmoji	gm	tada	Begin | a | project
-✅	Gitmoji	gm	white_check_mark	Add, | update, | or | pass | tests
-🔒️	Gitmoji	gm	lock	Fix | security | issues
-🔐	Gitmoji	gm	closed_lock_with_key	Add | or | update | secrets
-🔖	Gitmoji	gm	bookmark	Release | Version | tags
-🚨	Gitmoji	gm	rotating_light	Fix | compiler | linter | warnings
-🚧	Gitmoji	gm	construction	Work | in | progress
-💚	Gitmoji	gm	green_heart	Fix | CI | Build
-⬇️	Gitmoji	gm	arrow_down	Downgrade | dependencies
-⬆️	Gitmoji	gm	arrow_up	Upgrade | dependencies
-📌	Gitmoji	gm	pushpin	Pin | dependencies | to | specific | versions
-👷	Gitmoji	gm	construction_worker	Add | or | update | CI | build | system
-📈	Gitmoji	gm	chart_with_upwards_trend	Add | or | update | analytics | or | track | code
-♻️	Gitmoji	gm	recycle	Refactor | code
-➕	Gitmoji	gm	heavy_plus_sign	Add | a | dependency
-➖	Gitmoji	gm	heavy_minus_sign	Remove | a | dependency
-🔧	Gitmoji	gm	wrench	Add | or | update | configuration | files
-🔨	Gitmoji	gm	hammer	Add | or | update | development | scripts
-🌐	Gitmoji	gm	globe_with_meridians	Internationalization | and | localization
-✏️	Gitmoji	gm	pencil2	Fix | typos
-💩	Gitmoji	gm	poop	Write | bad | code | that | needs | to | be | improved
-⏪️	Gitmoji	gm	rewind	Revert | changes
-🔀	Gitmoji	gm	twisted_rightwards_arrows	Merge | branches
-📦️	Gitmoji	gm	package	Add | or | update | compiled | files | or | packages
-👽️	Gitmoji	gm	alien	Update | code | due | to | external | API | changes
-🚚	Gitmoji	gm	truck	Move | or | rename | resources | (eg	 | files, | paths, | routes)
-📄	Gitmoji	gm	page_facing_up	Add | or | update | license
-💥	Gitmoji	gm	boom	Introduce | breaking | changes
-🍱	Gitmoji	gm	bento	Add | or | update | assets
-♿️	Gitmoji	gm	wheelchair	Improve | accessibility
-💡	Gitmoji	gm	bulb	Add | or | update | comments | in | source | code
-🍻	Gitmoji	gm	beers	Write | code | drunkenly
-💬	Gitmoji	gm	speech_balloon	Add | or | update | text | and | literals
-🗃️	Gitmoji	gm	card_file_box	Perform | database | related | changes
-🔊	Gitmoji	gm	loud_sound	Add | or | update | logs
-🔇	Gitmoji	gm	mute	Remove | logs
-👥	Gitmoji	gm	busts_in_silhouette	Add | or | update | contributor(s)
-🚸	Gitmoji	gm	children_crossing	Improve | user | experience | usability
-🏗️	Gitmoji	gm	building_construction	Make | architectural | changes
-📱	Gitmoji	gm	iphone	Work | on | responsive | design
-🤡	Gitmoji	gm	clown_face	Mock | things
-🥚	Gitmoji	gm	egg	Add | or | update | an | easter | egg
-🙈	Gitmoji	gm	see_no_evil	Add | or | update | a | gitignore | file
-📸	Gitmoji	gm	camera_flash	Add | or | update | snapshots
-⚗️	Gitmoji	gm	alembic	Perform | experiments
-🔍️	Gitmoji	gm	mag	Improve | SEO
-🏷️	Gitmoji	gm	label	Add | or | update | types
-🌱	Gitmoji	gm	seedling	Add | or | update | seed | files
-🚩	Gitmoji	gm	triangular_flag_on_post	Add, | update, | or | remove | feature | flags
-🥅	Gitmoji	gm	goal_net	Catch | errors
-💫	Gitmoji	gm	dizzy	Add | or | update | animations | and | transitions
-🗑️	Gitmoji	gm	wastebasket	Deprecate | code | that | needs | to | be | cleaned | up
-🛂	Gitmoji	gm	passport_control	Work | on | code | related | to | authorization, | roles | and | permissions
-🩹	Gitmoji	gm	adhesive_bandage	Simple | fix | for | a | non-critical | issue
-🧐	Gitmoji	gm	monocle_face	Data | exploration | inspection
-⚰️	Gitmoji	gm	coffin	Remove | dead | code
-🧪	Gitmoji	gm	test_tube	Add | a | failing | test
-👔	Gitmoji	gm	necktie	Add | or | update | business | logic
-🩺	Gitmoji	gm	stethoscope	Add | or | update | healthcheck
-🧱	Gitmoji	gm	bricks	Infrastructure | related | changes
-🧑‍💻	Gitmoji	gm	technologist	Improve | developer | experience
+🎨	Gitmoji	gm	art	gm | Improve | structure | format | of | the | code
+⚡️	Gitmoji	gm	zap	gm | Improve | performance
+🔥	Gitmoji	gm	fire	gm | Remove | code | or | files
+🐛	Gitmoji	gm	bug	gm | Fix | a | bug
+🚑️	Gitmoji	gm	ambulance	gm | Critical | hotfix
+✨	Gitmoji	gm	sparkles	gm | Introduce | new | features
+📝	Gitmoji	gm	memo	gm | Add | or | update | documentation
+🚀	Gitmoji	gm	rocket	gm | Deploy | stuff
+💄	Gitmoji	gm	lipstick	gm | Add | or | update | the | UI | and | style | files
+🎉	Gitmoji	gm	tada	gm | Begin | a | project
+✅	Gitmoji	gm	white_check_mark	gm | Add, | update, | or | pass | tests
+🔒️	Gitmoji	gm	lock	gm | Fix | security | issues
+🔐	Gitmoji	gm	closed_lock_with_key	gm | Add | or | update | secrets
+🔖	Gitmoji	gm	bookmark	gm | Release | Version | tags
+🚨	Gitmoji	gm	rotating_light	gm | Fix | compiler | linter | warnings
+🚧	Gitmoji	gm	construction	gm | Work | in | progress
+💚	Gitmoji	gm	green_heart	gm | Fix | CI | Build
+⬇️	Gitmoji	gm	arrow_down	gm | Downgrade | dependencies
+⬆️	Gitmoji	gm	arrow_up	gm | Upgrade | dependencies
+📌	Gitmoji	gm	pushpin	gm | Pin | dependencies | to | specific | versions
+👷	Gitmoji	gm	construction_worker	gm | Add | or | update | CI | build | system
+📈	Gitmoji	gm	chart_with_upwards_trend	gm | Add | or | update | analytics | or | track | code
+♻️	Gitmoji	gm	recycle	gm | Refactor | code
+➕	Gitmoji	gm	heavy_plus_sign	gm | Add | a | dependency
+➖	Gitmoji	gm	heavy_minus_sign	gm | Remove | a | dependency
+🔧	Gitmoji	gm	wrench	gm | Add | or | update | configuration | files
+🔨	Gitmoji	gm	hammer	gm | Add | or | update | development | scripts
+🌐	Gitmoji	gm	globe_with_meridians	gm | Internationalization | and | localization
+✏️	Gitmoji	gm	pencil2	gm | Fix | typos
+💩	Gitmoji	gm	poop	gm | Write | bad | code | that | needs | to | be | improved
+⏪️	Gitmoji	gm	rewind	gm | Revert | changes
+🔀	Gitmoji	gm	twisted_rightwards_arrows	gm | Merge | branches
+📦️	Gitmoji	gm	package	gm | Add | or | update | compiled | files | or | packages
+👽️	Gitmoji	gm	alien	gm | Update | code | due | to | external | API | changes
+🚚	Gitmoji	gm	truck	gm | Move | or | rename | resources | (eg	 | files, | paths, | routes)
+📄	Gitmoji	gm	page_facing_up	gm | Add | or | update | license
+💥	Gitmoji	gm	boom	gm | Introduce | breaking | changes
+🍱	Gitmoji	gm	bento	gm | Add | or | update | assets
+♿️	Gitmoji	gm	wheelchair	gm | Improve | accessibility
+💡	Gitmoji	gm	bulb	gm | Add | or | update | comments | in | source | code
+🍻	Gitmoji	gm	beers	gm | Write | code | drunkenly
+💬	Gitmoji	gm	speech_balloon	gm | Add | or | update | text | and | literals
+🗃️	Gitmoji	gm	card_file_box	gm | Perform | database | related | changes
+🔊	Gitmoji	gm	loud_sound	gm | Add | or | update | logs
+🔇	Gitmoji	gm	mute	gm | Remove | logs
+👥	Gitmoji	gm	busts_in_silhouette	gm | Add | or | update | contributor(s)
+🚸	Gitmoji	gm	children_crossing	gm | Improve | user | experience | usability
+🏗️	Gitmoji	gm	building_construction	gm | Make | architectural | changes
+📱	Gitmoji	gm	iphone	gm | Work | on | responsive | design
+🤡	Gitmoji	gm	clown_face	gm | Mock | things
+🥚	Gitmoji	gm	egg	gm | Add | or | update | an | easter | egg
+🙈	Gitmoji	gm	see_no_evil	gm | Add | or | update | a | gitignore | file
+📸	Gitmoji	gm	camera_flash	gm | Add | or | update | snapshots
+⚗️	Gitmoji	gm	alembic	gm | Perform | experiments
+🔍️	Gitmoji	gm	mag	gm | Improve | SEO
+🏷️	Gitmoji	gm	label	gm | Add | or | update | types
+🌱	Gitmoji	gm	seedling	gm | Add | or | update | seed | files
+🚩	Gitmoji	gm	triangular_flag_on_post	gm | Add, | update, | or | remove | feature | flags
+🥅	Gitmoji	gm	goal_net	gm | Catch | errors
+💫	Gitmoji	gm	dizzy	gm | Add | or | update | animations | and | transitions
+🗑️	Gitmoji	gm	wastebasket	gm | Deprecate | code | that | needs | to | be | cleaned | up
+🛂	Gitmoji	gm	passport_control	gm | Work | on | code | related | to | authorization, | roles | and | permissions
+🩹	Gitmoji	gm	adhesive_bandage	gm | Simple | fix | for | a | non-critical | issue
+🧐	Gitmoji	gm	monocle_face	gm | Data | exploration | inspection
+⚰️	Gitmoji	gm	coffin	gm | Remove | dead | code
+🧪	Gitmoji	gm	test_tube	gm | Add | a | failing | test
+👔	Gitmoji	gm	necktie	gm | Add | or | update | business | logic
+🩺	Gitmoji	gm	stethoscope	gm | Add | or | update | healthcheck
+🧱	Gitmoji	gm	bricks	gm | Infrastructure | related | changes
+🧑‍💻	Gitmoji	gm	technologist	gm | Improve | developer | experience
