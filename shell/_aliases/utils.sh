@@ -1,1 +1,1 @@
-alias o.='dolphin .'
+alias o.='(dolphin . &>/dev/null &)'
