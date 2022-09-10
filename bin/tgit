@@ -12,3 +12,4 @@ cd $TEMP_DIR
 rm -f -r $(basename $1 .git)
 git clone $1
 cd $(basename $1 .git)
+code .
