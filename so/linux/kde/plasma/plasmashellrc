@@ -64,7 +64,7 @@ thickness=22
 thickness=36
 
 [PlasmaViews][Panel 43][Defaults]
-thickness=22
+thickness=20
 
 [PlasmaViews][Panel 43][Horizontal1024]
 thickness=22
@@ -73,7 +73,7 @@ thickness=22
 thickness=22
 
 [PlasmaViews][Panel 43][Horizontal3440]
-thickness=22
+thickness=20
 
 [PlasmaViews][Panel 81]
 alignment=132
@@ -91,6 +91,7 @@ thickness=60
 
 [ScreenConnectors]
 0=DisplayPort-0
+1=:0.0
 
 [Updates]
 performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/containmentactions_middlebutton.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/maintain_existing_desktop_icon_sizes.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/systemloadviewer_systemmonitor.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/klipper_clear_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_rename_timezonedisplay_key.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/no_middle_click_paste_on_panels.js

@@ -4,11 +4,14 @@ DefaultProfile=Main.profile
 [Favorite Profiles]
 Favorites=Breath2.profile
 
+[General]
+ConfigVersion=1
+
 [MainWindow]
-DisplayPort-0 Height 3440x1440=1050
-DisplayPort-0 Width 3440x1440=765
-DisplayPort-0 XPosition 3440x1440=719
-DisplayPort-0 YPosition 3440x1440=161
+DisplayPort-0 Height 3440x1440=1185
+DisplayPort-0 Width 3440x1440=1058
+DisplayPort-0 XPosition 3440x1440=113
+DisplayPort-0 YPosition 3440x1440=75
 HDMI-A-0 Height 1920x1080=1030
 HDMI-A-0 Width 1920x1080=686
 HDMI-A-0 XPosition 1920x1080=1230
