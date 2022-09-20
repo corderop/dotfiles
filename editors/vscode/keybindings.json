@@ -146,5 +146,23 @@
     {
         "key": "ctrl+shift+/",
         "command": "workbench.action.terminal.kill"
+    },
+    {
+        "key": "ctrl+alt+space ctrl+alt+h",
+        "command": "testing.runCurrentFile",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+; f",
+        "command": "-testing.runCurrentFile",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+space ctrl+alt+left",
+        "command": "testing.runAll"
+    },
+    {
+        "key": "ctrl+; a",
+        "command": "-testing.runAll"
     }
 ]
