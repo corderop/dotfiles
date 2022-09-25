@@ -1,168 +1,196 @@
-// Custom keybindings of @corderop for vscode 
+// Custom keybindings of @corderop for vscode
 [
-    // ------------------------------------------------------------
-    // KEYBINDINGS TO ADD
-    // ------------------------------------------------------------
-    {
-        "key": "ctrl+alt+m",
-        "command": "workbench.action.terminal.toggleTerminal",
-        "when": "terminal.active"
-    },
-    {
-        "key": "ctrl+shift+x",
-        "command": "editor.action.commentLine",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "alt+pagedown",
-        "command": "workbench.action.focusNextGroup"
-    },
-    {
-        "key": "ctrl+alt+n",
-        "command": "workbench.explorer.fileView.focus"
-    },
-    {
-        "key": "ctrl+alt+n",
-        "command": "workbench.action.focusActiveEditorGroup",
-        "when": "!editorFocus"
-    },
-    {
-        "key": "ctrl+shift+n",
-        "command": "explorer.newFile"
-    },
-    {
-        "key": "ctrl+shift+m",
-        "command": "explorer.newFolder"
-    },
-    {
-        "key": "ctrl+alt+b",
-        "command": "workbench.action.findInFiles"
-    },
-    {
-        "key": "f12",
-        "command": "workbench.action.toggleZenMode"
-    },
-    {
-        "key": "f10",
-        "command": "workbench.action.toggleCenteredLayout"
-    },
-    {
-        "key": "ctrl+alt+,",
-        "command": "workbench.action.decreaseViewSize"
-    },
-    {
-        "key": "ctrl+alt+.",
-        "command": "workbench.action.increaseViewSize"
-    },
-    // ------------------------------------------------------------
-    // KEYBINDINGS TO REMOVE
-    // ------------------------------------------------------------
-    {
-        "key": "ctrl+`",
-        "command": "-workbench.action.terminal.toggleTerminal",
-        "when": "terminal.active"
-    },
-    {
-        "key": "ctrl+shift+j",
-        "command": "-workbench.action.search.toggleQueryDetails",
-        "when": "inSearchEditor || searchViewletFocus"
-    },
-    {
-        "key": "ctrl+/",
-        "command": "-editor.action.commentLine",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+shift+x",
-        "command": "-workbench.view.extensions",
-        "when": "viewContainer.workbench.view.extensions.enabled"
-    },
-    {
-        "key": "alt+pagedown",
-        "command": "-scrollPageDown",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "alt+pageup",
-        "command": "-scrollPageUp",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "ctrl+m",
-        "command": "-editor.action.toggleTabFocusMode"
-    },
-    {
-        "key": "ctrl+shift+n",
-        "command": "-workbench.action.newWindow"
-    },
-    {
-        "key": "ctrl+shift+m",
-        "command": "-workbench.actions.view.problems",
-        "when": "workbench.panel.markers.view.active"
-    },
-    {
-        "key": "ctrl+shift+;",
-        "command": "-breadcrumbs.focus",
-        "when": "breadcrumbsPossible"
-    },
-    {
-        "key": "ctrl+d",
-        "command": "-editor.action.addSelectionToNextFindMatch",
-        "when": "editorFocus"
-    },
-    {
-        "key": "ctrl+shift+d",
-        "command": "-workbench.view.debug",
-        "when": "viewContainer.workbench.view.debug.enabled"
-    },
-    {
-        "key": "ctrl+shift+f",
-        "command": "-workbench.action.findInFiles"
-    },
-    {
-        "key": "ctrl+k z",
-        "command": "-workbench.action.toggleZenMode"
-    },
-    {
-        "key": "f10",
-        "command": "-extension.node-debug.startWithStopOnEntry",
-        "when": "!inDebugMode && debugConfigurationType == 'node' || !inDebugMode && debugConfigurationType == 'pwa-extensionHost' || !inDebugMode && debugConfigurationType == 'pwa-node'"
-    },
-    {
-        "key": "f10",
-        "command": "-workbench.action.debug.stepOver",
-        "when": "debugState == 'stopped'"
-    },
-    {
-        "key": "ctrl+alt+/",
-        "command": "workbench.action.terminal.new",
-        "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
-    },
-    {
-        "key": "ctrl+shift+`",
-        "command": "-workbench.action.terminal.new",
-        "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
-    },
-    {
-        "key": "ctrl+shift+/",
-        "command": "workbench.action.terminal.kill"
-    },
-    {
-        "key": "ctrl+alt+space ctrl+alt+h",
-        "command": "testing.runCurrentFile",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+; f",
-        "command": "-testing.runCurrentFile",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+alt+space ctrl+alt+left",
-        "command": "testing.runAll"
-    },
-    {
-        "key": "ctrl+; a",
-        "command": "-testing.runAll"
-    }
+  // ------------------------------------------------------------
+  // KEYBINDINGS TO ADD
+  // ------------------------------------------------------------
+  {
+    "key": "ctrl+alt+m",
+    "command": "workbench.action.terminal.toggleTerminal",
+    "when": "terminal.active"
+  },
+  {
+    "key": "ctrl+shift+x",
+    "command": "editor.action.commentLine",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+alt+n",
+    "command": "workbench.explorer.fileView.focus"
+  },
+  {
+    "key": "ctrl+alt+n",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "!editorFocus"
+  },
+  {
+    "key": "ctrl+shift+n",
+    "command": "explorer.newFile"
+  },
+  {
+    "key": "ctrl+shift+m",
+    "command": "explorer.newFolder"
+  },
+  {
+    "key": "ctrl+alt+b",
+    "command": "workbench.action.findInFiles"
+  },
+  {
+    "key": "f12",
+    "command": "workbench.action.toggleZenMode"
+  },
+  {
+    "key": "f10",
+    "command": "workbench.action.toggleCenteredLayout"
+  },
+  {
+    "key": "ctrl+alt+,",
+    "command": "workbench.action.decreaseViewSize"
+  },
+  {
+    "key": "ctrl+alt+.",
+    "command": "workbench.action.increaseViewSize"
+  },
+  // ------------------------------------------------------------
+  // KEYBINDINGS TO REMOVE
+  // ------------------------------------------------------------
+  {
+    "key": "ctrl+`",
+    "command": "-workbench.action.terminal.toggleTerminal",
+    "when": "terminal.active"
+  },
+  {
+    "key": "ctrl+shift+j",
+    "command": "-workbench.action.search.toggleQueryDetails",
+    "when": "inSearchEditor || searchViewletFocus"
+  },
+  {
+    "key": "ctrl+/",
+    "command": "-editor.action.commentLine",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+x",
+    "command": "-workbench.view.extensions",
+    "when": "viewContainer.workbench.view.extensions.enabled"
+  },
+  {
+    "key": "alt+pagedown",
+    "command": "-scrollPageDown",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "alt+pageup",
+    "command": "-scrollPageUp",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+m",
+    "command": "-editor.action.toggleTabFocusMode"
+  },
+  {
+    "key": "ctrl+shift+n",
+    "command": "-workbench.action.newWindow"
+  },
+  {
+    "key": "ctrl+shift+m",
+    "command": "-workbench.actions.view.problems",
+    "when": "workbench.panel.markers.view.active"
+  },
+  {
+    "key": "ctrl+shift+;",
+    "command": "-breadcrumbs.focus",
+    "when": "breadcrumbsPossible"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "-editor.action.addSelectionToNextFindMatch",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+shift+d",
+    "command": "-workbench.view.debug",
+    "when": "viewContainer.workbench.view.debug.enabled"
+  },
+  {
+    "key": "ctrl+shift+f",
+    "command": "-workbench.action.findInFiles"
+  },
+  {
+    "key": "ctrl+k z",
+    "command": "-workbench.action.toggleZenMode"
+  },
+  {
+    "key": "f10",
+    "command": "-extension.node-debug.startWithStopOnEntry",
+    "when": "!inDebugMode && debugConfigurationType == 'node' || !inDebugMode && debugConfigurationType == 'pwa-extensionHost' || !inDebugMode && debugConfigurationType == 'pwa-node'"
+  },
+  {
+    "key": "f10",
+    "command": "-workbench.action.debug.stepOver",
+    "when": "debugState == 'stopped'"
+  },
+  {
+    "key": "ctrl+alt+/",
+    "command": "workbench.action.terminal.new",
+    "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
+  },
+  {
+    "key": "ctrl+shift+`",
+    "command": "-workbench.action.terminal.new",
+    "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
+  },
+  {
+    "key": "ctrl+shift+/",
+    "command": "workbench.action.terminal.kill"
+  },
+  {
+    "key": "ctrl+alt+space ctrl+alt+h",
+    "command": "testing.runCurrentFile",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+; f",
+    "command": "-testing.runCurrentFile",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+space ctrl+alt+left",
+    "command": "testing.runAll"
+  },
+  {
+    "key": "ctrl+; a",
+    "command": "-testing.runAll"
+  },
+  {
+    "key": "alt+pageup",
+    "command": "workbench.action.focusLeftGroup"
+  },
+  {
+    "key": "ctrl+k ctrl+left",
+    "command": "-workbench.action.focusLeftGroup"
+  },
+  {
+    "key": "alt+pagedown",
+    "command": "workbench.action.focusRightGroup"
+  },
+  {
+    "key": "ctrl+k ctrl+right",
+    "command": "-workbench.action.focusRightGroup"
+  },
+  {
+    "key": "ctrl+alt+pageup",
+    "command": "workbench.action.moveActiveEditorGroupLeft"
+  },
+  {
+    "key": "ctrl+k left",
+    "command": "-workbench.action.moveActiveEditorGroupLeft"
+  },
+  {
+    "key": "ctrl+alt+pagedown",
+    "command": "workbench.action.moveActiveEditorGroupRight"
+  },
+  {
+    "key": "ctrl+k right",
+    "command": "-workbench.action.moveActiveEditorGroupRight"
+  }
 ]
