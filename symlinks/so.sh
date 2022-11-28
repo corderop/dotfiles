@@ -29,3 +29,6 @@ ln $1 "$HOME/.dotfiles/so/linux/kde/plasma/plasmoids" "$HOME/.local/share/plasma
 
 ## kdedefaults
 ln $1 "$HOME/.dotfiles/so/linux/kde/kdedefaults" "$HOME/.config/kdedefaults"
+
+## ETC
+sudo ln $1 "$HOME/.dotfiles/so/linux/etc/udev/rules.d/keychron-k12.rules" "/etc/udev/rules.d/keychron-k12.rules"
