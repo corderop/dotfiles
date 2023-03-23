@@ -1,21 +1,21 @@
 <?xml version='1.0'?>
 <!DOCTYPE gui SYSTEM 'kpartgui.dtd'>
-<gui name="okular_part" version="51">
+<gui version="52" name="okular_part">
  <MenuBar>
   <Menu name="file">
    <text>&amp;File</text>
-   <Action name="get_new_stuff" group="file_open"/>
-   <Action name="import_ps" group="file_open"/>
-   <Action name="file_save" group="file_save"/>
-   <Action name="file_save_as" group="file_save"/>
-   <Action name="file_reload" group="file_save"/>
-   <Action name="file_print" group="file_print"/>
-   <Action name="file_print_preview" group="file_print"/>
-   <Action name="open_containing_folder" group="file_print"/>
-   <Action name="properties" group="file_print"/>
-   <Action name="embedded_files" group="file_print"/>
-   <Action name="file_export_as" group="file_print"/>
-   <Action name="file_share" group="file_print"/>
+   <Action group="file_open" name="get_new_stuff"/>
+   <Action group="file_open" name="import_ps"/>
+   <Action group="file_save" name="file_save"/>
+   <Action group="file_save" name="file_save_as"/>
+   <Action group="file_save" name="file_reload"/>
+   <Action group="file_print" name="file_print"/>
+   <Action group="file_print" name="file_print_preview"/>
+   <Action group="file_print" name="open_containing_folder"/>
+   <Action group="file_print" name="properties"/>
+   <Action group="file_print" name="embedded_files"/>
+   <Action group="file_print" name="file_export_as"/>
+   <Action group="file_print" name="file_share"/>
   </Menu>
   <Menu name="edit">
    <text>&amp;Edit</text>
@@ -96,35 +96,22 @@
   </Menu>
   <Menu name="settings">
    <text>&amp;Settings</text>
-   <Action name="show_leftpanel" group="show_merge"/>
-   <Action name="show_bottombar" group="show_merge"/>
-   <Action name="options_configure_generators" group="configure_merge"/>
-   <Action name="options_configure" group="configure_merge"/>
+   <Action group="show_merge" name="colorscheme_menu"/>
+   <Action group="show_merge" name="show_leftpanel"/>
+   <Action group="show_merge" name="show_bottombar"/>
+   <Action group="configure_merge" name="options_configure_generators"/>
+   <Action group="configure_merge" name="options_configure"/>
   </Menu>
   <Menu name="help">
    <text>&amp;Help</text>
-   <Action name="help_about_backend" group="about_merge"/>
+   <Action group="about_merge" name="help_about_backend"/>
   </Menu>
  </MenuBar>
- <ToolBar name="mainToolBar" noMerge="1">
-  <text translationDomain="okular">Main Toolbar</text>
-  <Action name="view_fit_to_width"/>
-  <Action name="view_fit_to_page"/>
-  <Action name="mouse_zoom"/>
-  <Action name="edit_undo"/>
-  <Action name="mouse_textselect"/>
-  <Action name="mouse_drag"/>
-  <Spacer name="spacer_0"/>
-  <Action name="page_number"/>
-  <Spacer name="spacer_1"/>
-  <Action name="view_render_mode_single"/>
-  <Action name="view_render_mode_facing"/>
-  <Action name="mouse_toggle_annotate"/>
-  <Action name="annotation_highlighter"/>
-  <Action name="bookmark_add"/>
-  <Action name="edit_find"/>
+ <ToolBar iconText="icononly" newline="true" iconSize="32" hidden="true" position="right" name="quickAnnotationToolBar">
+  <text>Quick Annotation Toolbar</text>
+  <Action name="quick_annotation_action_bar"/>
  </ToolBar>
- <ToolBar newline="true" hidden="true" name="annotationToolBar" iconText="icononly">
+ <ToolBar iconText="icononly" newline="true" hidden="true" name="annotationToolBar">
   <text translationDomain="okular">Annotation Toolbar</text>
   <Action name="annotation_highlighter"/>
   <Action name="annotation_underline"/>
@@ -149,27 +136,41 @@
   <Spacer name="spacer_0"/>
   <Action name="hide_annotation_toolbar"/>
  </ToolBar>
- <ActionProperties scheme="Default">
-  <Action name="annotation_favorites" priority="0"/>
-  <Action name="annotation_highlighter" priority="0"/>
-  <Action name="annotation_settings_color" priority="0"/>
-  <Action name="bookmark_add" priority="0"/>
-  <Action name="edit_find" priority="0"/>
-  <Action name="edit_undo" priority="0"/>
-  <Action name="file_print_preview" priority="0"/>
-  <Action name="mouse_drag" priority="0"/>
-  <Action name="mouse_textselect" priority="0"/>
-  <Action name="mouse_toggle_annotate" priority="0"/>
-  <Action name="mouse_zoom" priority="0"/>
-  <Action name="presentation_drawing_eraser" priority="0"/>
-  <Action name="show_leftpanel" priority="0"/>
-  <Action name="view_fit_to_page" priority="0"/>
-  <Action name="view_fit_to_width" priority="0"/>
-  <Action name="view_render_mode_facing" priority="0"/>
-  <Action name="view_render_mode_single" priority="0"/>
- </ActionProperties>
- <ToolBar newline="true" hidden="true" position="right" name="quickAnnotationToolBar" iconText="icononly" iconSize="32">
-  <text>Quick Annotation Toolbar</text>
-  <Action name="quick_annotation_action_bar"/>
+ <ToolBar noMerge="1" name="mainToolBar">
+  <text translationDomain="okular">Main Toolbar</text>
+  <Action name="view_fit_to_width"/>
+  <Action name="view_fit_to_page"/>
+  <Action name="mouse_zoom"/>
+  <Action name="edit_undo"/>
+  <Action name="mouse_textselect"/>
+  <Action name="mouse_drag"/>
+  <Spacer name="spacer_0"/>
+  <Action name="page_number"/>
+  <Spacer name="spacer_1"/>
+  <Action name="view_render_mode_single"/>
+  <Action name="view_render_mode_facing"/>
+  <Action name="mouse_toggle_annotate"/>
+  <Action name="annotation_highlighter"/>
+  <Action name="bookmark_add"/>
+  <Action name="edit_find"/>
  </ToolBar>
+ <ActionProperties scheme="Default">
+  <Action priority="0" name="annotation_favorites"/>
+  <Action priority="0" name="annotation_highlighter"/>
+  <Action priority="0" name="annotation_settings_color"/>
+  <Action priority="0" name="bookmark_add"/>
+  <Action priority="0" name="edit_find"/>
+  <Action priority="0" name="edit_undo"/>
+  <Action priority="0" name="file_print_preview"/>
+  <Action priority="0" name="mouse_drag"/>
+  <Action priority="0" name="mouse_textselect"/>
+  <Action priority="0" name="mouse_toggle_annotate"/>
+  <Action priority="0" name="mouse_zoom"/>
+  <Action priority="0" name="presentation_drawing_eraser"/>
+  <Action priority="0" name="show_leftpanel"/>
+  <Action priority="0" name="view_fit_to_page"/>
+  <Action priority="0" name="view_fit_to_width"/>
+  <Action priority="0" name="view_render_mode_facing"/>
+  <Action priority="0" name="view_render_mode_single"/>
+ </ActionProperties>
 </gui>

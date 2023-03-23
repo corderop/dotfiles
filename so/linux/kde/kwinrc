@@ -17,8 +17,8 @@ BorderActivateAll=9
 
 [NightColor]
 Active=true
-LatitudeAuto=36.9737
-LongitudeAuto=-2.5289
+LatitudeAuto=37.1431
+LongitudeAuto=-3.678
 Mode=Times
 MorningBeginFixed=0500
 NightTemperature=3500

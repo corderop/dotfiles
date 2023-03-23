@@ -19,7 +19,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][43][Applets][58][Configuration]
-PreloadWeight=80
+PreloadWeight=100
 SystrayContainmentId=59
 
 [Containments][43][Applets][73]
@@ -117,6 +117,8 @@ immutability=1
 lastScreen=0
 location=3
 plugin=org.kde.plasma.private.systemtray
+popupHeight=432
+popupWidth=432
 wallpaperplugin=org.kde.image
 
 [Containments][59][Applets][60]
@@ -145,7 +147,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][59][Applets][63][Configuration]
-PreloadWeight=0
+PreloadWeight=100
 
 [Containments][59][Applets][63][Configuration][ConfigDialog]
 DialogHeight=558
@@ -156,7 +158,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][59][Applets][64][Configuration]
-PreloadWeight=0
+PreloadWeight=10
 
 [Containments][59][Applets][65]
 immutability=1
@@ -184,14 +186,14 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][59][Applets][68][Configuration]
-PreloadWeight=30
+PreloadWeight=100
 
 [Containments][59][Applets][69]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][59][Applets][69][Configuration]
-PreloadWeight=0
+PreloadWeight=40
 
 [Containments][59][Applets][76]
 immutability=1
@@ -294,7 +296,7 @@ Image=file:///home/pcordero/Imágenes/wallpapers/naranja.png
 SlidePaths=/home/pcordero/.local/share/wallpapers,/usr/share/wallpapers
 
 [Containments][87][Wallpaper][org.kde.slideshow][General]
-Image=file:///home/pcordero/Imágenes/wallpapers/naranja.png
+Image=/home/pcordero/Imágenes/wallpapers/rosa.png
 SlideInterval=86400
 SlidePaths=/home/pcordero/Imágenes/wallpapers
 
@@ -311,4 +313,4 @@ showOnlyCurrentDesktop=false
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/anki-cards,0
+screenMapping=desktop:/anki-cards,0,96fc46ce-ef66-47f5-b380-7c53bcf060c0
