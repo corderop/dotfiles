@@ -26,5 +26,17 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.minimap.enabled": false,
   "python.formatting.provider": "black",
-  "diffEditor.renderSideBySide": false
+  "diffEditor.renderSideBySide": false,
+  "grammarly.files.include": [
+    "**/readme.md",
+    "**/README.md",
+    "**/*.txt",
+    "**/*.md"
+  ],
+  "cSpell.userWords": ["Anki"],
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "editor.defaultFormatter": "ms-python.python",
+  "rapidapi.terminalLink.enabled": false
 }

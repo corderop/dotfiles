@@ -192,5 +192,35 @@
   {
     "key": "ctrl+k right",
     "command": "-workbench.action.moveActiveEditorGroupRight"
+  },
+  {
+    "key": "alt+t",
+    "command": "io.orta.jest.editor.run-all-tests",
+    "when": "jest:run.interactive && editorLangId =~ /(javascript|javascriptreact|typescript|typescriptreact|vue)/"
+  },
+  {
+    "key": "ctrl+alt+t",
+    "command": "-io.orta.jest.editor.run-all-tests",
+    "when": "jest:run.interactive && editorLangId =~ /(javascript|javascriptreact|typescript|typescriptreact|vue)/"
+  },
+  {
+    "key": "ctrl+shift+y",
+    "command": "workbench.action.pinEditor",
+    "when": "!activeEditorIsPinned"
+  },
+  {
+    "key": "ctrl+k shift+enter",
+    "command": "-workbench.action.pinEditor",
+    "when": "!activeEditorIsPinned"
+  },
+  {
+    "key": "ctrl+shift+y",
+    "command": "workbench.action.unpinEditor",
+    "when": "activeEditorIsPinned"
+  },
+  {
+    "key": "ctrl+k shift+enter",
+    "command": "-workbench.action.unpinEditor",
+    "when": "activeEditorIsPinned"
   }
 ]
