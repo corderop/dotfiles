@@ -1,42 +1,103 @@
 {
-  "explorer.confirmDelete": false,
-  "extensions.ignoreRecommendations": true,
-  "editor.fontFamily": "'Fira Code', 'monospace', monospace, 'Droid Sans Fallback'",
-  "editor.fontLigatures": true,
-  "workbench.colorTheme": "Gruvbox Dark Hard",
+  "explorer.confirmDragAndDrop": false,
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "files.exclude": {
-    "**/.git": false
+  "editor.minimap.enabled": false,
+  "files.associations": {
+    "*.hbs": "html",
+    "*.hl7": "hl7",
+    "*.csv": "csv"
   },
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "explorer.confirmDragAndDrop": false,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnType": true
+  },
+  "[vue]": {
+    "editor.formatOnSave": false
+  },
+  "python.formatting.provider": "black",
+  "window.menuBarVisibility": "toggle",
   "editor.unicodeHighlight.invisibleCharacters": false,
-  "workbench.startupEditor": "none",
   "editor.inlineSuggest.enabled": true,
   "github.copilot.enable": {
     "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false,
     "yaml": true,
-    "plaintext": true,
-    "markdown": true
+    "hl7": false,
+    "csv": false
   },
-  "hediet.vscode-drawio.theme": "Kennedy",
   "editor.bracketPairColorization.enabled": false,
+  "workbench.layoutControl.enabled": false,
   "terminal.integrated.enableMultiLinePasteWarning": false,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "editor.minimap.enabled": false,
-  "python.formatting.provider": "black",
-  "diffEditor.renderSideBySide": false,
-  "grammarly.files.include": [
-    "**/readme.md",
-    "**/README.md",
-    "**/*.txt",
-    "**/*.md"
+  "hediet.vscode-drawio.theme": "Kennedy",
+  "githubPullRequests.pullBranch": "never",
+  "python.terminal.activateEnvironment": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "rapidapi.terminalLink.enabled": false,
+  "githubPullRequests.queries": [
+    {
+      "label": "Waiting For My Review",
+      "query": "is:open review-requested:${user}"
+    },
+    {
+      "label": "Assigned To Me",
+      "query": "is:open assignee:${user}"
+    },
+    {
+      "label": "Created By Me",
+      "query": "is:open author:${user}"
+    }
   ],
-  "cSpell.userWords": ["Anki"],
-  "[python]": {
-    "editor.formatOnType": true
+  "workbench.colorTheme": "Gruvbox Dark Hard",
+  "volar.autoWrapParentheses": false,
+  "volar.format.initialIndent": {
+    "html": true
   },
-  "editor.defaultFormatter": "ms-python.python",
-  "rapidapi.terminalLink.enabled": false
+  "githubPullRequests.createOnPublishBranch": "never",
+  "editor.accessibilitySupport": "off",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.validate": [
+    "javascript"
+  ],
+  "eslint.format.enable": true,
+  "eslint.run": "onSave",
+  "eslint.workingDirectories": [
+    "./"
+  ],
+  "gitlens.advanced.messages": {
+    "suppressIntegrationRequestTimedOutWarning": true
+  },
+  "volar.inlayHints.eventArgumentInInlineHandlers": false,
+  "workbench.startupEditor": "none",
+  "python.analysis.typeCheckingMode": "off",
+  "git.autofetch": true,
+  "[sql]": {
+    "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+  },
+  "explorer.confirmDelete": false,
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+  "workbench.iconTheme": "symbols",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "symbols.hidesExplorerArrows": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "playwright.reuseBrowser": true,
+  "window.commandCenter": false,
+  "github.copilot.advanced": {},
+  "diffEditor.renderSideBySide": false,
+  "workbench.productIconTheme": "fluent-icons",
+  "hediet.vscode-drawio.resizeImages": null,
+  "editor.formatOnSave": true,
+  "editor.largeFileOptimizations": false,
+  "workbench.sideBar.location": "right",
+  "workbench.activityBar.location": "top",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
