@@ -1,10 +1,14 @@
 .vscode
+.DS_Store
 
 # EDITORS
 editors/vscode/globalStorage
 editors/vscode/History
 editors/vscode/snippets
 editors/vscode/workspaceStorage
+
+# KARABINER
+so/osx/karabiner/**/automatic_backups
 
 # Private files
 *private-*
