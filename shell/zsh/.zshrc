@@ -11,6 +11,7 @@ DISABLE_UNTRACKED_FILES_DIRTY="true" # make repository check faster
 
 ### PLUGINS
 export NVM_LAZY=1
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 plugins=(
   git
   zsh-autosuggestions
@@ -26,9 +27,6 @@ function enable_pyenv() {
   eval "$(pyenv init -)"
   eval "$(pyenv virtualenv-init -)"
 }
-
-### ALIAS
-alias docker-service-start="service docker start"
 
 # GIT ALIAS
 alias g="git"
@@ -61,3 +59,4 @@ esac
 # pnpm end
 # Created by `pipx` on 2023-10-24 07:23:59
 export PATH="$PATH:/Users/corderop/.local/bin"
+
