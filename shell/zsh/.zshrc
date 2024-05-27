@@ -11,7 +11,6 @@ DISABLE_UNTRACKED_FILES_DIRTY="true" # make repository check faster
 
 ### PLUGINS
 export NVM_LAZY=1
-source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 plugins=(
   git
   zsh-autosuggestions
