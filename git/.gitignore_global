@@ -7,3 +7,5 @@ todo.md
 
 # Global
 *.ignore*
+
+.DS_Store
