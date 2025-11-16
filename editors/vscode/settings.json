@@ -30,7 +30,6 @@
     "csv": false
   },
   "editor.bracketPairColorization.enabled": false,
-  "workbench.layoutControl.enabled": false,
   "terminal.integrated.enableMultiLinePasteWarning": false,
   "hediet.vscode-drawio.theme": "Kennedy",
   "githubPullRequests.pullBranch": "never",
@@ -51,7 +50,6 @@
       "query": "is:open author:${user}"
     }
   ],
-  "workbench.colorTheme": "Gruvbox Dark Hard",
   "volar.autoWrapParentheses": false,
   "volar.format.initialIndent": {
     "html": true
@@ -99,5 +97,13 @@
   "workbench.activityBar.location": "top",
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "[kotlin]": {
+    "editor.formatOnSave": false
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "explorer.confirmPasteNative": false,
+  "git.openRepositoryInParentFolders": "never",
+  "database-client.autoSync": true,
+  "workbench.colorTheme": "Gruvbox Dark Hard",
 }

@@ -14,10 +14,17 @@ export NVM_LAZY=1
 plugins=(
   git
   zsh-autosuggestions
+  poetry
 )
 
 ### OTHER
 source $ZSH/oh-my-zsh.sh
+
+### DOCKER & K8s
+function init_docker() {
+  source <(kubectl completion zsh)
+  colima start
+}
 
 ### PYENV
 export PATH="$HOME/.pyenv/bin:$PATH"
@@ -49,13 +56,30 @@ alias grc="git rebase --committer-date-is-author-date"
 # MAC OS
 eval $(/opt/homebrew/bin/brew shellenv)
 
+init_node () {
+  export NVM_DIR="$HOME/.nvm"
+  [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+  [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+
+  nvm use
+
+  # pnpm
+  export PNPM_HOME="/Users/$USER/Library/pnpm"
+  case ":$PATH:" in
+    *":$PNPM_HOME:"*) ;;
+    *) export PATH="$PNPM_HOME:$PATH" ;;
+  esac
+  # pnpm end
+}
+
+# Created by `pipx` on 2023-10-24 07:23:59
+export PATH="$PATH:/Users/$USER/.local/bin"
+
+
 # pnpm
-export PNPM_HOME="/Users/corderop/Library/pnpm"
+export PNPM_HOME="/Users/pcordero/Library/pnpm"
 case ":$PATH:" in
   *":$PNPM_HOME:"*) ;;
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
-# Created by `pipx` on 2023-10-24 07:23:59
-export PATH="$PATH:/Users/corderop/.local/bin"
-
