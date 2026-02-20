@@ -11,7 +11,8 @@
   },
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter",
-    "editor.formatOnType": true
+    "editor.formatOnType": true,
+    "diffEditor.ignoreTrimWhitespace": false
   },
   "[vue]": {
     "editor.formatOnSave": false
@@ -38,12 +39,16 @@
   "rapidapi.terminalLink.enabled": false,
   "githubPullRequests.queries": [
     {
+      "label": "Local Pull Request Branches",
+      "query": "default"
+    },
+    {
       "label": "Waiting For My Review",
-      "query": "is:open review-requested:${user}"
+      "query": "repo:${owner}/${repository} is:open review-requested:${user}"
     },
     {
       "label": "Assigned To Me",
-      "query": "is:open assignee:${user}"
+      "query": "repo:${owner}/${repository} is:open assignee:${user}"
     },
     {
       "label": "Created By Me",
@@ -93,17 +98,13 @@
   "hediet.vscode-drawio.resizeImages": null,
   "editor.formatOnSave": true,
   "editor.largeFileOptimizations": false,
-  "workbench.sideBar.location": "right",
   "workbench.activityBar.location": "top",
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "[kotlin]": {
-    "editor.formatOnSave": false
-  },
+  "workbench.sideBar.location": "right",
+  "scm.experimental.showHistoryGraph": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "explorer.confirmPasteNative": false,
-  "git.openRepositoryInParentFolders": "never",
-  "database-client.autoSync": true,
-  "workbench.colorTheme": "Gruvbox Dark Hard",
+  "github.copilot.nextEditSuggestions.enabled": true,
 }
