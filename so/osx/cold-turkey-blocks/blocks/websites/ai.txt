@@ -1,0 +1,4 @@
+gemini.google.com
+chatgpt.com
+claude.ai
+claude.com

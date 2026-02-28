@@ -1,0 +1,4 @@
+app:Kodi.app:org.xbmc.kodi
+app:Ryujinx.app:org.ryujinx.ryujinx
+app:UHF.app:com.nakiostudio.uhf.ios
+app:VLC.app:org.videolan.vlc

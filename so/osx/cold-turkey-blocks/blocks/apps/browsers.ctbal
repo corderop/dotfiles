@@ -1,0 +1,4 @@
+app:Brave Browser.app:com.brave.browser
+app:Google Chrome.app:com.google.chrome
+app:Firefox.app:org.mozilla.firefox
+app:Safari.app:com.apple.safari

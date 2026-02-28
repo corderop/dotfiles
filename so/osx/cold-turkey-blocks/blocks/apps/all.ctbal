@@ -1,0 +1,39 @@
+app:Antigravity.app:com.google.antigravity
+app:App Store.app:com.apple.appstore
+app:Brave Browser.app:com.brave.browser
+app:calibre.app:net.kovidgoyal.calibre
+app:ChatGPT.app:com.openai.chat
+app:Chess.app:com.apple.chess
+app:Claude.app:com.anthropic.claudefordesktop
+app:CodexBar.app:com.steipete.codexbar
+app:Contacts.app:com.apple.addressbook
+app:Cursor.app:com.todesktop.230313mzl4w4u92
+app:Discord.app:com.hnc.discord
+app:Figma.app:com.figma.desktop
+app:Firefox.app:org.mozilla.firefox
+app:Freeform.app:com.apple.freeform
+app:Games.app:com.apple.games
+app:GarageBand.app:com.apple.garageband10
+app:GeForceNOW.app:com.nvidia.gfnpc.mall
+app:Google Chrome.app:com.google.chrome
+app:Kodi.app:org.xbmc.kodi
+app:Moonlight.app:com.moonlight-stream.moonlight
+app:Motivated.app:com.motivated.app
+app:Obsidian.app:md.obsidian
+app:Photos.app:com.apple.photos
+app:Podcasts.app:com.apple.podcasts
+app:qbittorrent.app:org.qbittorrent.qbittorrent
+app:Ryujinx.app:org.ryujinx.ryujinx
+app:Safari.app:com.apple.safari
+app:Spotify.app:com.spotify.client
+app:Steam.app:com.valvesoftware.steam
+app:superwhisper.app:com.superduper.superwhisper
+app:Telegram.app:ru.keepcoder.telegram
+app:Toggl Track.app:com.toggl.daneel
+app:UHF.app:com.nakiostudio.uhf.ios
+app:Ukelele.app:org.sil.ukelele
+app:Visual Studio Code.app:com.microsoft.vscode
+app:VLC.app:org.videolan.vlc
+app:WhatsApp.app:net.whatsapp.whatsapp
+app:Z-Library.app:zlibrary
+app:zoom.us.app:us.zoom.xos
