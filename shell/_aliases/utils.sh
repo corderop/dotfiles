@@ -1,1 +1,0 @@
-alias o.='(dolphin . &>/dev/null &)'

@@ -1,1 +1,0 @@
-alias docker-service-start='sudo systemctl start docker'
