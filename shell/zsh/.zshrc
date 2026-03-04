@@ -83,3 +83,9 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+
+# Added by Antigravity
+export PATH="/Users/pcordero/.antigravity/antigravity/bin:$PATH"
+
+# opencode
+export PATH=/Users/pcordero/.opencode/bin:$PATH
