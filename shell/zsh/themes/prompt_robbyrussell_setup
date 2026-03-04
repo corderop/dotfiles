@@ -1,0 +1,45 @@
+#!/usr/bin/env zsh
+
+# A promptinit-compatible version of the classic robbyrussell theme
+
+prompt_robbyrussell_precmd() {
+  # Trigger git-info update if the function exists (Zim specific)
+  if (( ${+functions[git-info]} )); then
+    git-info
+  fi
+}
+
+prompt_robbyrussell_setup() {
+  # Requirements: percent expansion, string substitution
+  prompt_opts=(cr percent subst)
+
+  # Setup hook for git info
+  autoload -Uz add-zsh-hook
+  add-zsh-hook precmd prompt_robbyrussell_precmd
+
+  # Configure Zim's git-info
+  # Based on your environment, using %D for dirty and %C for clean 
+  # to avoid clashing with Zsh's built-in %d (directory) expansion.
+  zstyle ':zim:git-info:branch' format '%b'
+  zstyle ':zim:git-info:clean' format ''
+  zstyle ':zim:git-info:dirty' format ' %F{yellow}✗%f'
+  
+  # The 'prompt' key will contain the whole git status string
+  # We use %D here assuming it maps to the 'dirty' style in your Zim version
+  zstyle ':zim:git-info:keys' format 'prompt' ' %F{cyan}git:(%F{red}%b%F{cyan})%f%D'
+
+  # Arrow: Always yellow
+  local arrow="%F{green}➜%f"
+  
+  # Path: Orange and Bold
+  local pwd_part="%B%F{#ffad54}%c%f"
+  
+  # Set PS1. We use the (e) flag to evaluate git_info[prompt] on every redraw
+  PS1="${arrow}  ${pwd_part}\${(e)git_info[prompt]} %b"
+  
+  # Clear other prompt variables to ensure a clean state
+  RPS1=''
+}
+
+# Actually run it when loaded
+prompt_robbyrussell_setup "${@}"
