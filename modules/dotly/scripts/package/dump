@@ -24,7 +24,7 @@ platform::command_exists snap && package::snap_dump && output::answer "Snap apps
 
 platform::command_exists pip3 && package::python_dump && output::answer "Python apps dumped on $PYTHON_DUMP_FILE_PATH"
 
-platform::command_exists code && package::code_dump && output::answer "VSCode extensions dumped on $CODE_DUMP_FILE_PATH"
+platform::command_exists code && package::code_dump code && output::answer "VSCode extensions dumped on $DOTFILES_PATH/editors/code/extensions.txt"
 
 if platform::command_exists volta; then
 	package::volta_dump && output::answer "Volta apps dumped on $VOLTA_DUMP_FILE_PATH"

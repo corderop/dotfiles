@@ -7,7 +7,6 @@ elif platform::is_linux; then
 fi
 
 APT_DUMP_FILE_PATH="$DOTFILES_PATH/os/linux/apt/packages.txt"
-CODE_DUMP_FILE_PATH="$DOTFILES_PATH/editors/code/extensions.txt"
 NPM_DUMP_FILE_PATH="$DOTFILES_PATH/langs/js/global_modules.txt"
 PACMAN_DUMP_FILE_PATH="$DOTFILES_PATH/os/linux/pacman/packages.txt"
 PYTHON_DUMP_FILE_PATH="$DOTFILES_PATH/langs/python/requirements.txt"
@@ -45,15 +44,15 @@ package::apt_import() {
 }
 
 package::code_dump() {
-	mkdir -p "$DOTFILES_PATH/editors/code"
+	mkdir -p "$DOTFILES_PATH/editors/$1"
 
-	code --list-extensions >"$CODE_DUMP_FILE_PATH"
+	"$1" --list-extensions >"$DOTFILES_PATH/editors/$1/extensions.txt"
 }
 
 package::code_import() {
-	mkdir -p "$DOTFILES_PATH/editors/code"
+	mkdir -p "$DOTFILES_PATH/editors/$1"
 
-	xargs -I_ code --install-extension _ --force <"$CODE_DUMP_FILE_PATH"
+	xargs -I_ "$1" --install-extension _ --force <"$DOTFILES_PATH/editors/$1/extensions.txt"
 }
 
 package::snap_dump() {
