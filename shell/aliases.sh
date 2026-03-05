@@ -27,6 +27,6 @@ alias grc="git rebase --committer-date-is-author-date"
 
 # Utils
 alias k='kill -9'
-alias c.='(code $PWD &>/dev/null &)'
+alias c.='("$DAILY_DRIVER_EDITOR" $PWD &>/dev/null &)'
 alias o.='open .'
 alias up='dot package update_all'

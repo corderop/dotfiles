@@ -8,6 +8,7 @@ export PNPM_HOME="/Users/pcordero/Library/pnpm"
 # ------------------------------------------------------------------------------
 # Apps
 # ------------------------------------------------------------------------------
+export DAILY_DRIVER_EDITOR="antigravity"
 export ANTIGRAVITY_PATH="$HOME/.antigravity"
 export OPENCODE_PATH="$HOME/.opencode"
 
