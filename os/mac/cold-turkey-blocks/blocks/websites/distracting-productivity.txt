@@ -1,0 +1,8 @@
+calendar.google.com
+keep.google.com
+mail.google.com
+photos.google.com
+google.com/maps
+drive.google.com
+docs.google.com
+sheets.google.com
