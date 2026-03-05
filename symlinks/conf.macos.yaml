@@ -5,9 +5,8 @@
       create: true
       force: true
 
-- create:
-
 - link:
     ~/.dotly: os/mac/.dotly
     ~/Library/Application Support/Code/User: editors/code
+    ~/Library/Application Support/Antigravity/User: editors/antigravity
     ~/.config/karabiner: os/mac/karabiner/.config
