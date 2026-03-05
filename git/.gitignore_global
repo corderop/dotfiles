@@ -1,0 +1,11 @@
+# Todo
+todo.txt
+todo.md
+
+# Global
+.private/
+*.ignore.*
+*.private.*
+
+# Mac OS Files
+.DS_Store
