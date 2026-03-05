@@ -9,22 +9,24 @@ alias ~="cd ~"
 alias dotfiles='cd $DOTFILES_PATH'
 
 # Git
-alias gaa="git add -A"
-alias gc='$DOTLY_PATH/bin/dot git commit'
-alias gca="git add --all && git commit --amend --no-edit"
+alias gs="git status"
+alias ga="git add"
+alias ga.="git add ."
+alias gc="git commit"
+alias gca="ga. && gc"
+alias gcam="git commit --amend"
+alias gcaam="ga. && git commit --amend"
 alias gco="git checkout"
-alias gd='$DOTLY_PATH/bin/dot git pretty-diff'
-alias gs="git status -sb"
-alias gf="git fetch --all -p"
+alias gcob="git checkout -b"
+alias gpl="git pull"
 alias gps="git push"
-alias gpsf="git push --force"
-alias gpl="git pull --rebase --autostash"
-alias gb="git branch"
+alias gpf="git push --force-with-lease"
 alias gl='$DOTLY_PATH/bin/dot git pretty-log'
+alias gfa="git fetch --all"
+alias grc="git rebase --committer-date-is-author-date"
 
 # Utils
 alias k='kill -9'
-alias i.='(idea $PWD &>/dev/null &)'
 alias c.='(code $PWD &>/dev/null &)'
 alias o.='open .'
 alias up='dot package update_all'
