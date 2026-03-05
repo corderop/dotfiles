@@ -4,10 +4,10 @@ set -euo pipefail
 
 source "$DOTLY_PATH/scripts/core/_main.sh"
 
-##? Update all submodules to the latest commit on their remote branch
+##? Update dotly to the latest commit on its remote branch
 ##?
 ##? Usage:
 ##?   update-submodules
 docs::parse "$@"
 
-git submodule update --recursive --remote
+git submodule update --init --remote modules/dotly
