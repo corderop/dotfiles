@@ -4,6 +4,7 @@ todo.md
 
 # Global
 .private/
+.ignore/
 *.ignore.*
 *.private.*
 
