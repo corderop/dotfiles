@@ -1,10 +1,10 @@
 # FILE AUTOMATICALLY GENERATED FROM /Users/pcordero/.zimrc
 # EDIT THE SOURCE FILE AND THEN RUN zimfw build. DO NOT DIRECTLY EDIT THIS FILE!
 
-if [[ -e ${ZIM_CONFIG_FILE:-${ZDOTDIR:-${HOME}}/.zimrc} ]] zimfw() { source "${HOME}/.dotfiles.dotly/shell/zsh/.zim/zimfw.zsh" "${@}" }
-fpath=("${HOME}/.dotfiles.dotly/shell/zsh/.zim/modules/git-info/functions" "${HOME}/.dotfiles.dotly/shell/zsh/.zim/modules/completion/functions" ${fpath})
+if [[ -e ${ZIM_CONFIG_FILE:-${ZDOTDIR:-${HOME}}/.zimrc} ]] zimfw() { source "${HOME}/.dotfiles/shell/zsh/.zim/zimfw.zsh" "${@}" }
+fpath=("${HOME}/.dotfiles/shell/zsh/.zim/modules/git-info/functions" "${HOME}/.dotfiles/shell/zsh/.zim/modules/completion/functions" ${fpath})
 autoload -Uz -- coalesce git-action git-info
-source "${HOME}/.dotfiles.dotly/shell/zsh/.zim/modules/environment/init.zsh"
-source "${HOME}/.dotfiles.dotly/shell/zsh/.zim/modules/input/init.zsh"
-source "${HOME}/.dotfiles.dotly/shell/zsh/.zim/modules/completion/init.zsh"
-source "${HOME}/.dotfiles.dotly/shell/zsh/.zim/modules/zsh-autosuggestions/zsh-autosuggestions.zsh"
+source "${HOME}/.dotfiles/shell/zsh/.zim/modules/environment/init.zsh"
+source "${HOME}/.dotfiles/shell/zsh/.zim/modules/input/init.zsh"
+source "${HOME}/.dotfiles/shell/zsh/.zim/modules/completion/init.zsh"
+source "${HOME}/.dotfiles/shell/zsh/.zim/modules/zsh-autosuggestions/zsh-autosuggestions.zsh"
