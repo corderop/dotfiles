@@ -18,12 +18,14 @@ alias gcam="git commit --amend"
 alias gcaam="ga. && git commit --amend"
 alias gco="git checkout"
 alias gcob="git checkout -b"
+alias gfa="git fetch --all"
 alias gpl="git pull"
 alias gp="git push"
 alias gpf="git push --force-with-lease"
 alias gl='$DOTLY_PATH/bin/dot git pretty-log'
-alias gfa="git fetch --all"
 alias grc="git rebase --committer-date-is-author-date"
+alias grs="git restore --staged"
+alias grs.="git restore --staged ."
 
 # Utils
 alias k='kill -9'
