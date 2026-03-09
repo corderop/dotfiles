@@ -3,7 +3,7 @@
 # ------------------------------------------------------------------------------
 # Python
 export PYENV_ROOT="$HOME/.pyenv"
-export PNPM_HOME="/Users/pcordero/Library/pnpm"
+export PNPM_HOME="$HOME/Library/pnpm"
 
 # ------------------------------------------------------------------------------
 # Apps

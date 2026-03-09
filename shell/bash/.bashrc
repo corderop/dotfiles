@@ -1,4 +1,4 @@
-export DOTFILES_PATH="/Users/pcordero/.dotfiles"
+export DOTFILES_PATH="/Users/$USER/.dotfiles"
 export DOTLY_PATH="$DOTFILES_PATH/modules/dotly"
 
 source "$DOTFILES_PATH/shell/init.sh"
