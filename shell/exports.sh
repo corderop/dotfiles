@@ -8,6 +8,7 @@ export PNPM_HOME="$HOME/Library/pnpm"
 # ------------------------------------------------------------------------------
 # Apps
 # ------------------------------------------------------------------------------
+export HOMEBREW_PREFIX="/opt/homebrew"
 export DAILY_DRIVER_EDITOR="antigravity"
 export ANTIGRAVITY_PATH="$HOME/.antigravity"
 export OPENCODE_PATH="$HOME/.opencode"
@@ -24,7 +25,8 @@ path=(
 	"$PNPM_HOME"
 	"$OPENCODE_PATH/bin"
 	"$ANTIGRAVITY_PATH/antigravity/bin"
-	"/opt/homebrew/bin"
+	"$HOMEBREW_PREFIX/opt/findutils/libexec/gnubin"
+	"$HOMEBREW_PREFIX/bin"
 	"/usr/local/bin"
 	"/usr/local/sbin"
 	"/bin"
