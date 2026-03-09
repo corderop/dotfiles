@@ -10,3 +10,4 @@
     ~/Library/Application Support/Code/User: editors/code
     ~/Library/Application Support/Antigravity/User: editors/antigravity
     ~/.config/karabiner: os/mac/karabiner/.config
+    ~/Library/Keyboard Layouts/us-altgr-intl.keylayouts: os/mac/keyboard-layouts/us-altgr-intl.keylayout
