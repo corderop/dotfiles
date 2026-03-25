@@ -11,4 +11,6 @@
     ~/Library/Application Support/Antigravity/User: editors/antigravity
     ~/.config/karabiner: os/mac/karabiner/.config
     ~/Library/Keyboard Layouts/us-altgr-intl.keylayouts: os/mac/keyboard-layouts/us-altgr-intl.keylayout
+    ~/.colima/ssh_config: os/mac/colima/ssh_config
+    ~/.colima/default: os/mac/colima/default
     ~/.config/opencode: editors/agents/opencode

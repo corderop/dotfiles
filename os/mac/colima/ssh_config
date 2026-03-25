@@ -1,0 +1,21 @@
+# This SSH config file can be passed to 'ssh -F'.
+# This file is created by Lima, but not used by Lima itself currently.
+# Modifications to this file will be lost on restarting the Lima instance.
+Host colima
+  IdentityFile "/Users/pcordero/.colima/_lima/_config/user"
+  StrictHostKeyChecking no
+  UserKnownHostsFile /dev/null
+  NoHostAuthenticationForLocalhost yes
+  PreferredAuthentications publickey
+  Compression no
+  BatchMode yes
+  IdentitiesOnly yes
+  GSSAPIAuthentication no
+  Ciphers "^aes128-gcm@openssh.com,aes256-gcm@openssh.com"
+  User pcordero
+  ControlMaster auto
+  ControlPath "/Users/pcordero/.colima/_lima/colima/ssh.sock"
+  ControlPersist yes
+  Hostname 127.0.0.1
+  Port 51233
+
