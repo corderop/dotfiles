@@ -7,15 +7,15 @@
   "files.associations": {
     "*.hbs": "html",
     "*.hl7": "hl7",
-    "*.csv": "csv"
+    "*.csv": "csv",
   },
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter",
     "editor.formatOnType": true,
-    "diffEditor.ignoreTrimWhitespace": false
+    "diffEditor.ignoreTrimWhitespace": false,
   },
   "[vue]": {
-    "editor.formatOnSave": false
+    "editor.formatOnSave": false,
   },
   "python.formatting.provider": "black",
   "window.menuBarVisibility": "toggle",
@@ -28,7 +28,7 @@
     "scminput": false,
     "yaml": true,
     "hl7": false,
-    "csv": false
+    "csv": false,
   },
   "editor.bracketPairColorization.enabled": false,
   "terminal.integrated.enableMultiLinePasteWarning": false,
@@ -40,29 +40,29 @@
   "githubPullRequests.queries": [
     {
       "label": "Local Pull Request Branches",
-      "query": "default"
+      "query": "default",
     },
     {
       "label": "Waiting For My Review",
-      "query": "repo:${owner}/${repository} is:open review-requested:${user}"
+      "query": "repo:${owner}/${repository} is:open review-requested:${user}",
     },
     {
       "label": "Assigned To Me",
-      "query": "repo:${owner}/${repository} is:open assignee:${user}"
+      "query": "repo:${owner}/${repository} is:open assignee:${user}",
     },
     {
       "label": "Created By Me",
-      "query": "is:open author:${user}"
-    }
+      "query": "is:open author:${user}",
+    },
   ],
   "volar.autoWrapParentheses": false,
   "volar.format.initialIndent": {
-    "html": true
+    "html": true,
   },
   "githubPullRequests.createOnPublishBranch": "never",
   "editor.accessibilitySupport": "off",
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
+    "source.fixAll.eslint": "explicit",
   },
   "eslint.validate": [
     "javascript"
@@ -73,18 +73,18 @@
     "./"
   ],
   "gitlens.advanced.messages": {
-    "suppressIntegrationRequestTimedOutWarning": true
+    "suppressIntegrationRequestTimedOutWarning": true,
   },
   "volar.inlayHints.eventArgumentInInlineHandlers": false,
   "workbench.startupEditor": "none",
   "python.analysis.typeCheckingMode": "off",
   "git.autofetch": true,
   "[sql]": {
-    "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+    "editor.defaultFormatter": "adpyke.vscode-sql-formatter",
   },
   "explorer.confirmDelete": false,
   "[astro]": {
-    "editor.defaultFormatter": "astro-build.astro-vscode"
+    "editor.defaultFormatter": "astro-build.astro-vscode",
   },
   "workbench.iconTheme": "symbols",
   "typescript.updateImportsOnFileMove.enabled": "always",
@@ -100,11 +100,18 @@
   "editor.largeFileOptimizations": false,
   "workbench.activityBar.location": "top",
   "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
+    "editor.defaultFormatter": "vscode.json-language-features",
   },
   "workbench.sideBar.location": "right",
   "scm.experimental.showHistoryGraph": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "explorer.confirmPasteNative": false,
   "github.copilot.nextEditSuggestions.enabled": true,
+  "workbench.colorTheme": "Gruvbox Dark Hard",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "chat.mcp.gallery.enabled": true,
+  "mdb.confirmRunAll": false,
+  "chat.viewSessions.orientation": "stacked",
 }

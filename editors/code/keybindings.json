@@ -312,5 +312,10 @@
       "text": "\u001b\r"
     },
     "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+enter",
+    "command": "mdb.runPlayground",
+    "when": "mdb.isPlayground"
   }
 ]

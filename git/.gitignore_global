@@ -2,11 +2,16 @@
 todo.txt
 todo.md
 
-# Global
+# Private files
+*.personal/
 .private/
 .ignore/
+*.personal.*
 *.ignore.*
 *.private.*
 
 # Mac OS Files
 .DS_Store
+
+# Docker custom configurations
+docker-compose.override.yml
