@@ -59,10 +59,14 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
   },
-  "eslint.validate": ["javascript"],
+  "eslint.validate": [
+    "javascript"
+  ],
   "eslint.format.enable": true,
   "eslint.run": "onSave",
-  "eslint.workingDirectories": ["./"],
+  "eslint.workingDirectories": [
+    "./"
+  ],
   "gitlens.advanced.messages": {
     "suppressIntegrationRequestTimedOutWarning": true,
   },
