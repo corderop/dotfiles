@@ -1,0 +1,105 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+source "$DOTLY_PATH/scripts/core/_main.sh"
+
+##? Merge dotfiles with another repository
+##?
+##? Usage:
+##?   merge
+docs::parse "$@"
+
+_get_origins_file() {
+	echo "$DOTFILES_PATH/.merge/.origins"
+}
+
+_select_origin() {
+	local -r origins_file="$1"
+
+	if [ ! -f "$origins_file" ]; then
+		output::error "Origins file not found at $origins_file"
+		exit 1
+	fi
+
+	local -r filtered_origins=$(grep -v '^[[:space:]]*#' "$origins_file" | grep -v '^[[:space:]]*$' || true)
+	local -r count=$(echo "$filtered_origins" | grep -c '.' || true)
+
+	if [ "$count" -eq 1 ]; then
+		echo "$filtered_origins"
+	elif [ "$count" -gt 1 ]; then
+		echo "$filtered_origins" | fzf --height 40% --layout=reverse --border --prompt="Select origin to use: "
+	else
+		output::error "No origins found in $origins_file"
+		exit 1
+	fi
+}
+
+_ensure_remote() {
+	local -r name="$1"
+	local -r url="$2"
+
+	if ! git remote get-url "$name" > /dev/null 2>&1; then
+		output::answer "Adding remote '$name' from $url..."
+		local output
+		output=$(git remote add "$name" "$url" 2>&1)
+
+		if [ $? -ne 0 ]; then
+			output::error "Failed to add remote '$name': $output"
+			exit 1
+		fi
+		output::solution "Remote '$name' added."
+	fi
+}
+
+_get_ignore_file() {
+	echo "$DOTFILES_PATH/.merge/.mergeignore"
+}
+
+_ignore_files() {
+	local -r ignore_file="$1"
+
+	if [ ! -f "$ignore_file" ]; then
+		return
+	fi
+
+	output::write "Ignoring:"
+
+	while read -r pattern || [[ -n "$pattern" ]]; do
+		[[ -z "$pattern" || "$pattern" == "#"* ]] && continue
+
+		output::write "• $pattern"
+
+		# Unstage changes
+		git reset HEAD "$pattern" > /dev/null 2>&1 || true
+		# Restore to original state
+		git checkout HEAD -- "$pattern" > /dev/null 2>&1 || true
+		# Remove if it was a new untracked file/directory added during merge
+		git clean -fd "$pattern" > /dev/null 2>&1 || true
+	done < "$ignore_file"
+}
+
+origins_file=$(_get_origins_file)
+selection=$(_select_origin "$origins_file")
+
+if [ -z "$selection" ]; then
+	output::error "No origin selected. Exiting."
+	exit 0
+fi
+
+# Parse the selection (name url)
+read -r selected_name selected_url <<< "$selection"
+
+_ensure_remote "$selected_name" "$selected_url"
+
+output::header "🔀 Using origin: $selected_name"
+
+output::header "⏳ Initiating merge with $selected_name/main..."
+git fetch "$selected_name"
+git merge --squash "$selected_name/main" || output::write "Merge had conflicts; proceeding to apply ignore rules."
+
+output::header "🙈 Applying .mergeignore rules..."
+_ignore_files "$(_get_ignore_file)"
+
+output::empty_line
+output::write "✅ Merge step completed. Please commit manually."
