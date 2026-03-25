@@ -105,7 +105,7 @@
   "explorer.confirmPasteNative": false,
   "git.openRepositoryInParentFolders": "never",
   "database-client.autoSync": true,
-  "workbench.colorTheme": "Tokyo Night Light",
+  "workbench.colorTheme": "Gruvbox Dark Hard",
   "biome.configurationPath": "stack-app/biome.json",
   "explorer.fileNesting.patterns": {
     "*.ts": "${capture}.js",
