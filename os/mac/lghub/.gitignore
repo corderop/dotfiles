@@ -1,0 +1,8 @@
+/sentry_db_lghub_agent
+/integrations_config
+/integrations
+/scripts
+account.json
+frontend-store.json
+window-state.json
+privacy_settings.db

@@ -14,3 +14,4 @@
     ~/.colima/ssh_config: os/mac/colima/ssh_config
     ~/.colima/default: os/mac/colima/default
     ~/.config/opencode: editors/agents/opencode
+    ~/Library/Application Support/LGHUB: os/mac/lghub
