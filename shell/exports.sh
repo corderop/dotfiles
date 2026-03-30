@@ -3,17 +3,17 @@ source "$DOTFILES_PATH/shell/exports.private.sh"
 # ------------------------------------------------------------------------------
 # General
 # ------------------------------------------------------------------------------
-export DEV_HOME="~/Software"
+export DEV_HOME="$HOME/Software"
 
 # ------------------------------------------------------------------------------
 # Languages
 # ------------------------------------------------------------------------------
 # Python
-export PYENV_ROOT="~/.pyenv"
+export PYENV_ROOT="$HOME/.pyenv"
 # Javascript
-export PNPM_HOME="~/Library/pnpm"
+export PNPM_HOME="$HOME/Library/pnpm"
 # Rust
-export CARGO_HOME="~/.cargo"
+export CARGO_HOME="$HOME/.cargo"
 . "$HOME/.cargo/env"
 
 # ------------------------------------------------------------------------------
@@ -30,8 +30,8 @@ export OPENCODE_PATH="~/.opencode"
 path=(
 	"$DOTLY_PATH/bin"
 	"$DOTFILES_PATH/bin"
-	"~/bin"
-	"~/.local/bin" # Added by pipx
+	"$HOME/bin"
+	"$HOME/.local/bin" # Added by pipx
 	"$PYENV_ROOT/bin"
 	"$PNPM_HOME"
 	"$CARGO_HOME/bin"
