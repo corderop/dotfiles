@@ -6,3 +6,5 @@ account.json
 frontend-store.json
 window-state.json
 privacy_settings.db
+privacy_settings.db-*
+settings.db-*
