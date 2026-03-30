@@ -3,22 +3,23 @@ source "$DOTFILES_PATH/shell/exports.private.sh"
 # ------------------------------------------------------------------------------
 # General
 # ------------------------------------------------------------------------------
-export DEV_HOME="$HOME/Software"
+export DEV_HOME="~/Software"
 
 # ------------------------------------------------------------------------------
 # Languages
 # ------------------------------------------------------------------------------
 # Python
-export PYENV_ROOT="$HOME/.pyenv"
-export PNPM_HOME="$HOME/Library/pnpm"
+export PYENV_ROOT="~/.pyenv"
+export PNPM_HOME="~/Library/pnpm"
+export CARGO_HOME="~/.cargo"
 
 # ------------------------------------------------------------------------------
 # Apps
 # ------------------------------------------------------------------------------
 export HOMEBREW_PREFIX="/opt/homebrew"
 export DAILY_DRIVER_EDITOR="antigravity"
-export ANTIGRAVITY_PATH="$HOME/.antigravity"
-export OPENCODE_PATH="$HOME/.opencode"
+export ANTIGRAVITY_PATH="~/.antigravity"
+export OPENCODE_PATH="~/.opencode"
 
 # ------------------------------------------------------------------------------
 # Path - The higher it is, the more priority it has
@@ -26,10 +27,11 @@ export OPENCODE_PATH="$HOME/.opencode"
 path=(
 	"$DOTLY_PATH/bin"
 	"$DOTFILES_PATH/bin"
-	"$HOME/bin"
-	"$HOME/.local/bin" # Added by pipx
+	"~/bin"
+	"~/.local/bin" # Added by pipx
 	"$PYENV_ROOT/bin"
 	"$PNPM_HOME"
+	"$CARGO_HOME/bin"
 	"$OPENCODE_PATH/bin"
 	"$ANTIGRAVITY_PATH/antigravity/bin"
 	"$HOMEBREW_PREFIX/opt/findutils/libexec/gnubin"
