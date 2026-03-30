@@ -10,8 +10,11 @@ export DEV_HOME="~/Software"
 # ------------------------------------------------------------------------------
 # Python
 export PYENV_ROOT="~/.pyenv"
+# Javascript
 export PNPM_HOME="~/Library/pnpm"
+# Rust
 export CARGO_HOME="~/.cargo"
+. "$HOME/.cargo/env"
 
 # ------------------------------------------------------------------------------
 # Apps
