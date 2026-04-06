@@ -1,6 +1,7 @@
 tap "denisidoro/tools"
 tap "mongodb/brew"
 tap "steipete/tap"
+tap "sw33tlie/macshot"
 brew "ncurses"
 brew "bash"
 brew "colima"
@@ -32,6 +33,7 @@ brew "zsh-autosuggestions"
 brew "denisidoro/tools/docpars"
 brew "mongodb/brew/mongodb-database-tools"
 cask "steipete/tap/codexbar"
+cask "sw33tlie/macshot/macshot"
 mas "Numbers", id: 409203825
 mas "WhatsApp", id: 310633997
 vscode "anthropic.claude-code"
