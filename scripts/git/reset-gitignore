@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+source "$DOTLY_PATH/scripts/core/_main.sh"
+
+##? Reset the gitignore by removing all cached files and re-adding them
+##?
+##? Usage:
+##?   reset-gitignore
+docs::parse "$@"
+
+git rm -rf --cached .
+git add .

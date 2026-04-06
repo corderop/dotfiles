@@ -21,8 +21,8 @@ export CARGO_HOME="$HOME/.cargo"
 # ------------------------------------------------------------------------------
 export HOMEBREW_PREFIX="/opt/homebrew"
 export DAILY_DRIVER_EDITOR="antigravity"
-export ANTIGRAVITY_PATH="~/.antigravity"
-export OPENCODE_PATH="~/.opencode"
+export ANTIGRAVITY_PATH="$HOME/.antigravity"
+export OPENCODE_PATH="$HOME/.opencode"
 
 # ------------------------------------------------------------------------------
 # Path - The higher it is, the more priority it has

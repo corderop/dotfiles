@@ -114,4 +114,7 @@
   "chat.mcp.gallery.enabled": true,
   "mdb.confirmRunAll": false,
   "chat.viewSessions.orientation": "stacked",
+  "mdb.defaultLimit": 50,
+  "mdb.sendTelemetry": false,
+  "mdb.mcp.server": "autoStartEnabled",
 }
