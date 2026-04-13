@@ -117,4 +117,9 @@
   "mdb.defaultLimit": 50,
   "mdb.sendTelemetry": false,
   "mdb.mcp.server": "autoStartEnabled",
+  "terminal.integrated.inheritEnv": false,
+  "github.copilot.chat.additionalReadAccessPaths": [
+    "/Users/pablo.cordero/.claude/CLAUDE.md",
+    "/Users/pablo.cordero/.claude/RTK.md",
+  ],
 }

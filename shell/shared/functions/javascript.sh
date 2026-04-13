@@ -1,5 +1,5 @@
 function init_nvm () {
-  if [[ ! -v NVM_DIR ]]; then 
+  if [ -z "${NVM_DIR+x}" ]; then
     export NVM_DIR="$HOME/.nvm"
     [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
     [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
@@ -16,21 +16,8 @@ function init_pnpm () {
   # pnpm end
 }
 
-function nvm {
-  unfunction nvm
-  init_nvm
-  $0 "$@"
-}
-
-function pnpm pnpx {
-  unfunction pnpm pnpx
-  init_pnpm
-  nvm use
-  $0 "$@"
-}
-
-function node npm npx yarn {
-  unfunction node npm npx yarn
-  nvm use
-  $0 "$@"
-}
+if [ -n "${BASH_VERSION:-}" ]; then
+  source "$DOTFILES_PATH/shell/shared/functions/javascript/javascript.bash.sh"
+else
+  source "$DOTFILES_PATH/shell/shared/functions/javascript/javascript.zsh.sh"
+fi

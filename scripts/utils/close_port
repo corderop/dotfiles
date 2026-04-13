@@ -1,0 +1,46 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+source "$DOTLY_PATH/scripts/core/_main.sh"
+
+##? Close a specific port
+##?
+##? Usage:
+##?   close_port <port_number>
+docs::parse "$@"
+
+if [[ $# -ne 1 ]]; then
+  output::write "Usage: close_port <port_number>"
+  exit 1
+fi
+
+PORT="$1"
+
+# Find processes using the requested port.
+PROCESS_INFO="$(lsof -nP -i :"$PORT" 2>/dev/null || true)"
+PIDS="$(lsof -ti :"$PORT" 2>/dev/null | sort -u || true)"
+
+if [[ -z "$PIDS" ]]; then
+  output::write "No process is using port $PORT."
+  exit 0
+fi
+
+output::write "The following processes are using port $PORT:"
+output::write "$PROCESS_INFO"
+output::empty_line
+
+read -r -p "Do you want to close these processes? [y/N] " CONFIRM
+
+case "$CONFIRM" in
+  y|Y|yes|YES)
+    # Use SIGKILL to preserve the original behavior.
+    while IFS= read -r PID; do
+      [[ -n "$PID" ]] && kill -9 "$PID"
+    done <<< "$PIDS"
+    output::write "Closed process(es) on port $PORT."
+    ;;
+  *)
+    output::write "Canceled. No process was closed."
+    ;;
+esac
