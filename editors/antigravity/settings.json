@@ -59,10 +59,14 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
   },
-  "eslint.validate": ["javascript"],
+  "eslint.validate": [
+    "javascript"
+  ],
   "eslint.format.enable": true,
   "eslint.run": "onSave",
-  "eslint.workingDirectories": ["./"],
+  "eslint.workingDirectories": [
+    "./"
+  ],
   "gitlens.advanced.messages": {
     "suppressIntegrationRequestTimedOutWarning": true,
   },
@@ -101,7 +105,7 @@
   "explorer.confirmPasteNative": false,
   "git.openRepositoryInParentFolders": "never",
   "database-client.autoSync": true,
-  "workbench.colorTheme": "Tokyo Night Light",
+  "workbench.colorTheme": "Gruvbox Dark Hard",
   "biome.configurationPath": "stack-app/biome.json",
   "explorer.fileNesting.patterns": {
     "*.ts": "${capture}.js",
