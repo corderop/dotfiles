@@ -27,6 +27,8 @@ alias gl='$DOTLY_PATH/bin/dot git pretty-log'
 alias grc="git rebase --committer-date-is-author-date"
 alias grs="git restore --staged"
 alias grs.="git restore --staged ."
+alias gst="git stash -u"
+alias gstp="git stash pop"
 
 # Utils
 alias k='kill -9'

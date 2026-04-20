@@ -21,3 +21,4 @@
     ~/.gitignore_global: git/.gitignore_global
     ~/.config/opencode: editors/agents/opencode
     ~/.claude: editors/agents/claude-code
+    ~/.copilot: editors/agents/copilot
